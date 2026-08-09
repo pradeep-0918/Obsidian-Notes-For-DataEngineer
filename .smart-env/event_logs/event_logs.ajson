@@ -12,3 +12,4 @@
 "event_logs:sources:import_completed": {"key":"sources:import_completed","ct":1,"first_at":1786306753808,"last_at":1786306753808,"class_name":"EventLog","event_sources":{"process_source_import_queue":1}},
 "event_logs:milestones:first_achieved": {"key":"milestones:first_achieved","ct":1,"first_at":1786306753808,"last_at":1786306753808,"class_name":"EventLog","event_sources":{"onboarding_events":1}},
 "event_logs:milestones_modal:open": {"key":"milestones_modal:open","ct":1,"first_at":1786306761577,"last_at":1786306761577,"class_name":"EventLog","event_sources":{"native_notice_button":1}},
+"event_logs:sources:opened": {"key":"sources:opened","ct":1,"first_at":1786306877215,"last_at":1786306877215,"class_name":"EventLog","event_sources":{"active-leaf-change":1}},
