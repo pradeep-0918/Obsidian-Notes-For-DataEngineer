@@ -16,7 +16,7 @@ tags:
   - gcp
   - cloud
 ---
-
+[[Syllabus]]
 # 🧭 Data Engineering — 25 Module Master Roadmap
 
 > [!abstract] Goal
