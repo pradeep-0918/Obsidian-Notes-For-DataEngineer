@@ -77,7 +77,7 @@ Everything I learn about **Computer Science, Data Engineering, DSA, SQL, Python,
 
 - [[Python]]
     
-- [[SQL]]
+- [[SQL Syllabus]]
     
 - [[Linux]]
     
