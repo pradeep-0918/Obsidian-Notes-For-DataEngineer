@@ -14,7 +14,7 @@ tags:
     
 
 ---
-[[RoadMap]]     [[Syllabus]] 
+[[RoadMap]]     [[Learning stage1/Syllabus]] 
 # 👋 Welcome, Pradeep!
 
 > **Learn → Build → Practice → Document → Become Industry Ready.**
