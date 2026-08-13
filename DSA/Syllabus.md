@@ -14,2985 +14,5694 @@ tags:
   - leetcode
   - coding-interviews
 ---
-# 🚀 DSA — Complete Problem Solving Syllabus
-
-> [!important]
-> **Goal:** Do not memorize solutions.
->
-> Train your brain to recognize:
->
-> `Question → Constraints → Observation → Pattern → Template → Implementation → Optimization`
->
-> The final objective is to look at a new problem and quickly identify which family of techniques can solve it.
 
 ---
 
-# 0. 🧠 Problem-Solving Foundation
+# DSA — Complete A to Z Master Syllabus
 
-Before learning advanced DSA, master the following.
+> [!abstract] Goal  
+> Cover **Data Structures + Algorithms + Problem-Solving Patterns + Templates + Competitive Programming techniques** from beginner to advanced level.
 
-## 0.1 Complexity Analysis
+> [!important] Learning Rule  
+> Do not study DSA as isolated topics.
+> 
+> **Concept → Pattern → Template → Easy → Medium → Hard → Mixed Problems → Timed Practice**
 
-* [[Big O Notation]]
-* [[Big Omega]]
-* [[Big Theta]]
-* [[Time Complexity]]
-* [[Space Complexity]]
-* [[Amortized Analysis]]
+---
 
-### Complexity Classes
+# 00 — DSA Foundation
 
-* [[O(1)]]
-* [[O(log n)]]
-* [[O(n)]]
-* [[O(n log n)]]
-* [[O(n²)]]
-* [[O(n³)]]
-* [[O(2^n)]]
-* [[O(n!)]]
+## [[01 — Complexity Analysis]]
 
-### Must Learn
+### Topics
 
-* [[Complexity Comparison]]
-* [[Worst Case Analysis]]
-* [[Average Case Analysis]]
-* [[Best Case Analysis]]
-* [[Nested Loop Complexity]]
-* [[Recursive Complexity]]
-* [[Recurrence Relations]]
-* [[Master Theorem]]
-* [[Input Constraint Analysis]]
+- [[01.01 — Time Complexity]]
+    
+- [[01.02 — Space Complexity]]
+    
+- [[01.03 — Big O]]
+    
+- [[01.04 — Big Omega]]
+    
+- [[01.05 — Big Theta]]
+    
+- [[01.06 — Best Average Worst Case]]
+    
+- [[01.07 — Amortized Analysis]]
+    
+- [[01.08 — Input Size Analysis]]
+    
+- [[01.09 — Complexity Comparison]]
+    
+
+### Patterns
+
+- Constant
+    
+- Logarithmic
+    
+- Linear
+    
+- Linearithmic
+    
+- Quadratic
+    
+- Cubic
+    
+- Exponential
+    
+- Factorial
+    
+
+### Problems
+
+**HackerRank**
+
+- [[30 Days of Code]]
+    
+- [[Time Conversion]]
+    
+
+**CSES**
+
+- [[Weird Algorithm]]
+    
+- [[Missing Number]]
+    
+
+---
+
+# 01 — Arrays
+
+## [[02 — Arrays Fundamentals]]
+
+### Topics
+
+- [[02.01 — Array Traversal]]
+    
+- [[02.02 — Array Insertion]]
+    
+- [[02.03 — Array Deletion]]
+    
+- [[02.04 — Array Searching]]
+    
+- [[02.05 — Array Updating]]
+    
+- [[02.06 — Frequency Array]]
+    
+- [[02.07 — In-place Modification]]
+    
+- [[02.08 — Reverse Array]]
+    
+- [[02.09 — Rotate Array]]
+    
+- [[02.10 — Array Partitioning]]
+    
+
+### Patterns
+
+- Traversal
+    
+- Frequency Counting
+    
+- In-place Modification
+    
+- Two-pass
+    
+- One-pass
+    
+- Simulation
+    
+
+### Problems
+
+**LeetCode**
+
+- [[Two Sum]]
+    
+- [[Best Time to Buy and Sell Stock]]
+    
+- [[Contains Duplicate]]
+    
+- [[Majority Element]]
+    
+- [[Move Zeroes]]
+    
+- [[Remove Duplicates from Sorted Array]]
+    
+- [[Rotate Array]]
+    
+- [[Missing Number]]
+    
+- [[Single Number]]
+    
+- [[Find Pivot Index]]
+    
+
+**HackerRank**
+
+- [[Arrays - DS]]
+    
+- [[2D Array - DS]]
+    
+- [[Left Rotation]]
+    
+- [[Sparse Arrays]]
+    
+
+**CSES**
+
+- [[Missing Number]]
+    
+- [[Maximum Subarray Sum]]
+    
+- [[Distinct Numbers]]
+    
+
+---
+
+# 02 — Strings
+
+## [[03 — String Fundamentals]]
+
+### Topics
+
+- [[03.01 — Character Traversal]]
+    
+- [[03.02 — ASCII]]
+    
+- [[03.03 — Character Frequency]]
+    
+- [[03.04 — String Comparison]]
+    
+- [[03.05 — String Builder]]
+    
+- [[03.06 — String Manipulation]]
+    
+- [[03.07 — Substrings]]
+    
+- [[03.08 — Subsequences]]
+    
+- [[03.09 — Palindromes]]
+    
+- [[03.10 — Anagrams]]
+    
+
+### Patterns
+
+- Frequency Map
+    
+- Character Counting
+    
+- Two Pointer
+    
+- Sliding Window
+    
+- String Hashing
+    
+- Prefix/Suffix
+    
+- Palindrome Expansion
+    
+
+### Problems
+
+**LeetCode**
+
+- [[Valid Anagram]]
+    
+- [[Valid Palindrome]]
+    
+- [[Longest Common Prefix]]
+    
+- [[First Unique Character in a String]]
+    
+- [[Group Anagrams]]
+    
+- [[Longest Palindromic Substring]]
+    
+- [[String to Integer atoi]]
+    
+- [[Reverse Words in a String]]
+    
+
+**HackerRank**
+
+- [[CamelCase]]
+    
+- [[Caesar Cipher]]
+    
+- [[Anagram]]
+    
+- [[Making Anagrams]]
+    
+- [[Sherlock and the Valid String]]
+    
+
+**CSES**
+
+- [[Palindrome Reorder]]
+    
+- [[Creating Strings]]
+    
+- [[String Matching]]
+    
+
+---
+
+# 03 — Hashing
+
+## [[04 — Hash Table Pattern]]
+
+### Topics
+
+- [[04.01 — HashMap]]
+    
+- [[04.02 — HashSet]]
+    
+- [[04.03 — Frequency Map]]
+    
+- [[04.04 — Value to Index]]
+    
+- [[04.05 — Index to Value]]
+    
+- [[04.06 — Prefix Sum + HashMap]]
+    
+- [[04.07 — Hashing Strings]]
+    
+- [[04.08 — Custom Hashing]]
+    
+
+### Patterns
+
+- Frequency Counting
+    
+- Complement Lookup
+    
+- Duplicate Detection
+    
+- Prefix Sum + HashMap
+    
+- Grouping
+    
+- Memoization
+    
+
+### Problems
+
+- [[Two Sum]]
+    
+- [[3Sum]]
+    
+- [[4Sum]]
+    
+- [[Subarray Sum Equals K]]
+    
+- [[Longest Consecutive Sequence]]
+    
+- [[Top K Frequent Elements]]
+    
+- [[Isomorphic Strings]]
+    
+- [[Happy Number]]
+    
+- [[Ransom Note]]
+    
+- [[Count Number of Bad Pairs]]
+    
+
+---
+
+# 04 — Two Pointers
+
+## [[05 — Two Pointer Pattern]]
+
+### Core Patterns
+
+- [[05.01 — Opposite Direction]]
+    
+- [[05.02 — Same Direction]]
+    
+- [[05.03 — Fast and Slow]]
+    
+- [[05.04 — Left Right]]
+    
+- [[05.05 — Partition]]
+    
+- [[05.06 — Merge Two Arrays]]
+    
+- [[05.07 — Pair Searching]]
+    
+- [[05.08 — Triplet Searching]]
+    
+
+### Problems
+
+**LeetCode**
+
+- [[Two Sum II]]
+    
+- [[3Sum]]
+    
+- [[4Sum]]
+    
+- [[Container With Most Water]]
+    
+- [[Valid Palindrome]]
+    
+- [[Remove Duplicates from Sorted Array]]
+    
+- [[Move Zeroes]]
+    
+- [[Sort Colors]]
+    
+- [[Trapping Rain Water]]
+    
+- [[Boats to Save People]]
+    
+
+**HackerRank**
+
+- [[Pairs]]
+    
+- [[Array Manipulation]]
+    
+
+**Codeforces**
+
+- [[Two Sum]]
+    
+- [[Sort the Subarray]]
+    
+- [[Two Divisors]]
+    
+
+---
+
+# 05 — Sliding Window
+
+## [[06 — Sliding Window Pattern]]
+
+### Types
+
+- [[06.01 — Fixed Size Window]]
+    
+- [[06.02 — Variable Size Window]]
+    
+- [[06.03 — Longest Window]]
+    
+- [[06.04 — Smallest Window]]
+    
+- [[06.05 — At Most K]]
+    
+- [[06.06 — Exactly K]]
+    
+- [[06.07 — Character Frequency Window]]
+    
+- [[06.08 — Monotonic Deque Window]]
+    
+
+### Problems
+
+**LeetCode**
+
+- [[Maximum Average Subarray I]]
+    
+- [[Longest Substring Without Repeating Characters]]
+    
+- [[Minimum Size Subarray Sum]]
+    
+- [[Permutation in String]]
+    
+- [[Find All Anagrams in a String]]
+    
+- [[Longest Repeating Character Replacement]]
+    
+- [[Minimum Window Substring]]
+    
+- [[Sliding Window Maximum]]
+    
+- [[Subarrays with K Different Integers]]
+    
+- [[Fruit Into Baskets]]
+    
+
+**HackerRank**
+
+- [[Max Min]]
+    
+- [[Java Dequeue]]
+    
+
+---
+
+# 06 — Prefix Sum
+
+## [[07 — Prefix Sum Pattern]]
+
+### Topics
+
+- [[07.01 — 1D Prefix Sum]]
+    
+- [[07.02 — 2D Prefix Sum]]
+    
+- [[07.03 — Prefix Sum + HashMap]]
+    
+- [[07.04 — Prefix XOR]]
+    
+- [[07.05 — Difference Array]]
+    
+- [[07.06 — Range Updates]]
+    
+- [[07.07 — Range Queries]]
+    
+
+### Problems
+
+- [[Range Sum Query - Immutable]]
+    
+- [[Subarray Sum Equals K]]
+    
+- [[Contiguous Array]]
+    
+- [[Product of Array Except Self]]
+    
+- [[Corporate Flight Bookings]]
+    
+- [[Car Pooling]]
+    
+- [[Range Addition]]
+    
+- [[Subarray Sums Divisible by K]]
+    
+
+**CSES**
+
+- [[Subarray Sums I]]
+    
+- [[Subarray Sums II]]
+    
+- [[Forest Queries]]
+    
+- [[Static Range Sum Queries]]
+    
+
+---
+
+# 07 — Binary Search
+
+## [[08 — Binary Search Pattern]]
+
+### Fundamentals
+
+- [[08.01 — Normal Binary Search]]
+    
+- [[08.02 — Lower Bound]]
+    
+- [[08.03 — Upper Bound]]
+    
+- [[08.04 — First Occurrence]]
+    
+- [[08.05 — Last Occurrence]]
+    
+- [[08.06 — Search Insert Position]]
+    
+- [[08.07 — Rotated Sorted Array]]
+    
+- [[08.08 — Binary Search on Answer]]
+    
+- [[08.09 — Minimum Feasible Value]]
+    
+- [[08.10 — Maximum Feasible Value]]
+    
+- [[08.11 — Binary Search on Function]]
+    
+- [[08.12 — Ternary Search]]
+    
+
+### Problems
+
+**LeetCode**
+
+- [[Binary Search]]
+    
+- [[Search Insert Position]]
+    
+- [[First Bad Version]]
+    
+- [[Find First and Last Position of Element in Sorted Array]]
+    
+- [[Search in Rotated Sorted Array]]
+    
+- [[Find Minimum in Rotated Sorted Array]]
+    
+- [[Koko Eating Bananas]]
+    
+- [[Capacity To Ship Packages Within D Days]]
+    
+- [[Split Array Largest Sum]]
+    
+- [[Median of Two Sorted Arrays]]
+    
+
+**CSES**
+
+- [[Factory Machines]]
+    
+- [[Array Division]]
+    
+- [[Maximum Subarray Sum II]]
+    
+
+**Codeforces**
+
+- [[Packing Rectangles]]
+    
+- [[Very Easy Task]]
+    
+- [[Hamburgers]]
+    
+
+---
+
+# 08 — Sorting
+
+## [[09 — Sorting Algorithms]]
+
+### Basic Sorting
+
+- [[09.01 — Bubble Sort]]
+    
+- [[09.02 — Selection Sort]]
+    
+- [[09.03 — Insertion Sort]]
+    
+
+### Efficient Sorting
+
+- [[09.04 — Merge Sort]]
+    
+- [[09.05 — Quick Sort]]
+    
+- [[09.06 — Heap Sort]]
+    
+
+### Non-comparison Sorting
+
+- [[09.07 — Counting Sort]]
+    
+- [[09.08 — Radix Sort]]
+    
+- [[09.09 — Bucket Sort]]
+    
+
+### Patterns
+
+- Sorting + Two Pointer
+    
+- Sorting + Greedy
+    
+- Sorting + Binary Search
+    
+- Sorting + Hashing
+    
+- Custom Comparator
+    
+- Coordinate Compression
+    
+
+### Problems
+
+- [[Sort Colors]]
+    
+- [[Merge Sorted Array]]
+    
+- [[Merge Intervals]]
+    
+- [[Largest Number]]
+    
+- [[Meeting Rooms]]
+    
+- [[Non-overlapping Intervals]]
+    
+- [[Maximum Gap]]
+    
+- [[Sort an Array]]
+    
+
+**CSES**
+
+- [[Apartments]]
+    
+- [[Concert Tickets]]
+    
+- [[Movie Festival]]
+    
+- [[Stick Lengths]]
+    
+- [[Ferris Wheel]]
+    
+
+---
+
+# 09 — Linked List
+
+## [[10 — Linked List]]
+
+### Topics
+
+- [[10.01 — Singly Linked List]]
+    
+- [[10.02 — Doubly Linked List]]
+    
+- [[10.03 — Circular Linked List]]
+    
+- [[10.04 — Insert]]
+    
+- [[10.05 — Delete]]
+    
+- [[10.06 — Reverse]]
+    
+- [[10.07 — Merge]]
+    
+- [[10.08 — Cycle Detection]]
+    
+- [[10.09 — Intersection]]
+    
+- [[10.10 — Random Pointer]]
+    
+
+### Patterns
+
+- Dummy Node
+    
+- Fast & Slow Pointer
+    
+- Reversal
+    
+- Merge
+    
+- Split
+    
+- Cycle Detection
+    
+- Pointer Rewiring
+    
+
+### Problems
+
+**LeetCode**
+
+- [[Reverse Linked List]]
+    
+- [[Merge Two Sorted Lists]]
+    
+- [[Linked List Cycle]]
+    
+- [[Linked List Cycle II]]
+    
+- [[Middle of the Linked List]]
+    
+- [[Remove Nth Node From End of List]]
+    
+- [[Intersection of Two Linked Lists]]
+    
+- [[Palindrome Linked List]]
+    
+- [[Reorder List]]
+    
+- [[Copy List with Random Pointer]]
+    
+- [[LRU Cache]]
+    
+- [[Reverse Nodes in k-Group]]
+    
+
+**HackerRank**
+
+- [[Print the Elements of a Linked List]]
+    
+- [[Insert a Node at a Specific Position]]
+    
+- [[Reverse a linked list]]
+    
+- [[Detect a Cycle]]
+    
+
+---
+
+# 10 — Stack
+
+## [[11 — Stack Pattern]]
+
+### Topics
+
+- [[11.01 — Stack Fundamentals]]
+    
+- [[11.02 — Array Stack]]
+    
+- [[11.03 — Linked Stack]]
+    
+- [[11.04 — Monotonic Stack]]
+    
+- [[11.05 — Increasing Stack]]
+    
+- [[11.06 — Decreasing Stack]]
+    
+- [[11.07 — Expression Evaluation]]
+    
+- [[11.08 — Parentheses Matching]]
+    
+
+### Problems
+
+- [[Valid Parentheses]]
+    
+- [[Min Stack]]
+    
+- [[Evaluate Reverse Polish Notation]]
+    
+- [[Daily Temperatures]]
+    
+- [[Next Greater Element I]]
+    
+- [[Next Greater Element II]]
+    
+- [[Largest Rectangle in Histogram]]
+    
+- [[Maximal Rectangle]]
+    
+- [[Remove K Digits]]
+    
+- [[Asteroid Collision]]
+    
+- [[Decode String]]
+    
+
+---
+
+# 11 — Queue & Deque
+
+## [[12 — Queue Pattern]]
+
+### Topics
+
+- [[12.01 — Queue]]
+    
+- [[12.02 — Circular Queue]]
+    
+- [[12.03 — Deque]]
+    
+- [[12.04 — Priority Queue]]
+    
+- [[12.05 — Monotonic Queue]]
+    
+- [[12.06 — BFS Queue]]
+    
+
+### Problems
+
+- [[Implement Queue using Stacks]]
+    
+- [[Sliding Window Maximum]]
+    
+- [[Number of Recent Calls]]
+    
+- [[Design Circular Queue]]
+    
+- [[Rotting Oranges]]
+    
+- [[Open the Lock]]
+    
+
+---
+
+# 12 — Recursion
+
+## [[13 — Recursion]]
+
+### Topics
+
+- [[13.01 — Base Case]]
+    
+- [[13.02 — Recursive Tree]]
+    
+- [[13.03 — Stack Frames]]
+    
+- [[13.04 — Tail Recursion]]
+    
+- [[13.05 — Multiple Recursion]]
+    
+- [[13.06 — Divide and Conquer]]
+    
+- [[13.07 — Recursion + Backtracking]]
+    
+
+### Problems
+
+- [[Fibonacci Number]]
+    
+- [[Pow(x, n)]]
+    
+- [[Reverse Linked List]]
+    
+- [[Merge Sort]]
+    
+- [[Generate Parentheses]]
+    
+- [[Subsets]]
+    
+- [[Permutations]]
+    
+- [[Combination Sum]]
+    
+
+---
+
+# 13 — Backtracking
+
+## [[14 — Backtracking Pattern]]
+
+### Core Patterns
+
+- [[14.01 — Choose → Explore → Unchoose]]
+    
+- [[14.02 — Subsets]]
+    
+- [[14.03 — Permutations]]
+    
+- [[14.04 — Combinations]]
+    
+- [[14.05 — Constraint Search]]
+    
+- [[14.06 — Grid Backtracking]]
+    
+- [[14.07 — Partitioning]]
+    
+- [[14.08 — Word Search]]
+    
+- [[14.09 — N Queens]]
+    
+- [[14.10 — Sudoku]]
+    
+- [[14.11 — Bitmask Backtracking]]
+    
+
+### Problems
+
+**LeetCode**
+
+- [[Subsets]]
+    
+- [[Subsets II]]
+    
+- [[Permutations]]
+    
+- [[Permutations II]]
+    
+- [[Combination Sum]]
+    
+- [[Combination Sum II]]
+    
+- [[Letter Combinations of a Phone Number]]
+    
+- [[Generate Parentheses]]
+    
+- [[Palindrome Partitioning]]
+    
+- [[Word Search]]
+    
+- [[N-Queens]]
+    
+- [[Sudoku Solver]]
+    
+
+**CSES**
+
+- [[Creating Strings]]
+    
+- [[Chessboard and Queens]]
+    
+
+---
+
+# 14 — Bit Manipulation
+
+## [[15 — Bit Manipulation]]
+
+### Fundamentals
+
+- [[15.01 — Binary Representation]]
+    
+- [[15.02 — AND]]
+    
+- [[15.03 — OR]]
+    
+- [[15.04 — XOR]]
+    
+- [[15.05 — NOT]]
+    
+- [[15.06 — Left Shift]]
+    
+- [[15.07 — Right Shift]]
+    
+- [[15.08 — Set Bit]]
+    
+- [[15.09 — Clear Bit]]
+    
+- [[15.10 — Toggle Bit]]
+    
+- [[15.11 — Check Bit]]
+    
+- [[15.12 — Count Set Bits]]
+    
+- [[15.13 — Power of Two]]
+    
+- [[15.14 — XOR Properties]]
+    
+- [[15.15 — Bitmask]]
+    
+
+### Advanced Patterns
+
+- XOR cancellation
+    
+- Subset generation
+    
+- Bitmask DP
+    
+- State compression
+    
+- Brian Kernighan algorithm
+    
+
+### Problems
+
+- [[Single Number]]
+    
+- [[Single Number II]]
+    
+- [[Single Number III]]
+    
+- [[Number of 1 Bits]]
+    
+- [[Counting Bits]]
+    
+- [[Reverse Bits]]
+    
+- [[Power of Two]]
+    
+- [[Missing Number]]
+    
+- [[Subsets]]
+    
+- [[Maximum XOR of Two Numbers in an Array]]
+    
+
+**CSES**
+
+- [[Bit Strings]]
+    
+- [[Gray Code]]
+    
+- [[Xor Pyramid]]
+    
+
+---
+
+# 15 — Matrix / 2D Arrays
+
+## [[16 — Matrix Patterns]]
+
+### Topics
+
+- [[16.01 — Matrix Traversal]]
+    
+- [[16.02 — Row/Column Traversal]]
+    
+- [[16.03 — Transpose]]
+    
+- [[16.04 — Rotate Matrix]]
+    
+- [[16.05 — Spiral Traversal]]
+    
+- [[16.06 — Diagonal Traversal]]
+    
+- [[16.07 — Prefix Matrix]]
+    
+- [[16.08 — Grid BFS]]
+    
+- [[16.09 — Grid DFS]]
+    
+- [[16.10 — Grid Backtracking]]
+    
+
+### Problems
+
+- [[Spiral Matrix]]
+    
+- [[Rotate Image]]
+    
+- [[Set Matrix Zeroes]]
+    
+- [[Search a 2D Matrix]]
+    
+- [[Search a 2D Matrix II]]
+    
+- [[Game of Life]]
+    
+- [[Number of Islands]]
+    
+- [[Surrounded Regions]]
+    
+- [[Word Search]]
+    
+
+---
+
+# 16 — Trees
+
+## [[17 — Binary Tree]]
+
+### Fundamentals
+
+- [[17.01 — Tree Terminology]]
+    
+- [[17.02 — Binary Tree Representation]]
+    
+- [[17.03 — Recursive Traversal]]
+    
+- [[17.04 — Iterative Traversal]]
+    
+
+### Traversal Patterns
+
+- [[17.05 — Preorder]]
+    
+- [[17.06 — Inorder]]
+    
+- [[17.07 — Postorder]]
+    
+- [[17.08 — Level Order]]
+    
+- [[17.09 — Reverse Level Order]]
+    
+- [[17.10 — Zigzag Level Order]]
+    
+- [[17.11 — Vertical Order]]
+    
+- [[17.12 — Boundary Traversal]]
+    
+- [[17.13 — Diagonal Traversal]]
+    
+- [[17.14 — Morris Traversal]]
+    
+
+### Tree Property Patterns
+
+- [[17.15 — Height]]
+    
+- [[17.16 — Depth]]
+    
+- [[17.17 — Diameter]]
+    
+- [[17.18 — Balanced Tree]]
+    
+- [[17.19 — Symmetric Tree]]
+    
+- [[17.20 — Identical Trees]]
+    
+- [[17.21 — Subtree]]
+    
+- [[17.22 — Complete Tree]]
+    
+- [[17.23 — Full Tree]]
+    
+- [[17.24 — Perfect Tree]]
+    
+
+### Path Patterns
+
+- [[17.25 — Root to Leaf Path]]
+    
+- [[17.26 — Path Sum]]
+    
+- [[17.27 — Maximum Path Sum]]
+    
+- [[17.28 — All Paths]]
+    
+- [[17.29 — Longest Path]]
+    
+
+### Ancestor Patterns
+
+- [[17.30 — Lowest Common Ancestor]]
+    
+- [[17.31 — Distance Between Nodes]]
+    
+- [[17.32 — Kth Ancestor]]
+    
+- [[17.33 — Binary Lifting]]
+    
+
+### Problems
+
+**LeetCode**
+
+- [[Binary Tree Preorder Traversal]]
+    
+- [[Binary Tree Inorder Traversal]]
+    
+- [[Binary Tree Postorder Traversal]]
+    
+- [[Binary Tree Level Order Traversal]]
+    
+- [[Binary Tree Zigzag Level Order Traversal]]
+    
+- [[Maximum Depth of Binary Tree]]
+    
+- [[Diameter of Binary Tree]]
+    
+- [[Balanced Binary Tree]]
+    
+- [[Symmetric Tree]]
+    
+- [[Same Tree]]
+    
+- [[Path Sum]]
+    
+- [[Path Sum II]]
+    
+- [[Binary Tree Maximum Path Sum]]
+    
+- [[Lowest Common Ancestor of a Binary Tree]]
+    
+- [[Serialize and Deserialize Binary Tree]]
+    
+- [[Construct Binary Tree from Preorder and Inorder Traversal]]
+    
+- [[Flatten Binary Tree to Linked List]]
+    
+
+**HackerRank**
+
+- [[Tree Height of a Binary Tree]]
+    
+- [[Tree: Level Order Traversal]]
+    
+- [[Tree: Top View]]
+    
+- [[Tree: Lowest Common Ancestor]]
+    
+- [[Tree: Huffman Decoding]]
+    
+
+**CSES**
+
+- [[Tree Matching]]
+    
+- [[Tree Distances I]]
+    
+- [[Tree Distances II]]
+    
+- [[Subordinates]]
+    
+
+---
+
+# 17 — Binary Search Tree
+
+## [[18 — BST Pattern]]
+
+### Topics
+
+- [[18.01 — BST Properties]]
+    
+- [[18.02 — Search]]
+    
+- [[18.03 — Insert]]
+    
+- [[18.04 — Delete]]
+    
+- [[18.05 — Minimum]]
+    
+- [[18.06 — Maximum]]
+    
+- [[18.07 — Predecessor]]
+    
+- [[18.08 — Successor]]
+    
+- [[18.09 — Validate BST]]
+    
+- [[18.10 — Kth Smallest]]
+    
+- [[18.11 — Kth Largest]]
+    
+- [[18.12 — BST Iterator]]
+    
+- [[18.13 — Sorted Array to BST]]
+    
+
+### Problems
+
+- [[Validate Binary Search Tree]]
+    
+- [[Search in a Binary Search Tree]]
+    
+- [[Insert into a Binary Search Tree]]
+    
+- [[Delete Node in a BST]]
+    
+- [[Kth Smallest Element in a BST]]
+    
+- [[Lowest Common Ancestor of a Binary Search Tree]]
+    
+- [[Convert Sorted Array to Binary Search Tree]]
+    
+- [[Two Sum IV - Input is a BST]]
+    
+- [[Binary Search Tree Iterator]]
+    
+
+---
+
+# 18 — Heap / Priority Queue
+
+## [[19 — Heap Pattern]]
+
+### Topics
+
+- [[19.01 — Min Heap]]
+    
+- [[19.02 — Max Heap]]
+    
+- [[19.03 — Heapify]]
+    
+- [[19.04 — Build Heap]]
+    
+- [[19.05 — Insert]]
+    
+- [[19.06 — Delete]]
+    
+- [[19.07 — Top K]]
+    
+- [[19.08 — Kth Element]]
+    
+- [[19.09 — Two Heap Pattern]]
+    
+- [[19.10 — Merge K Sorted]]
+    
+- [[19.11 — Scheduling with Heap]]
+    
+
+### Patterns
+
+- Top K
+    
+- Kth Largest
+    
+- Kth Smallest
+    
+- Two Heaps
+    
+- Heap + HashMap
+    
+- Heap + Greedy
+    
+- Multiway Merge
+    
+
+### Problems
+
+- [[Kth Largest Element in an Array]]
+    
+- [[Top K Frequent Elements]]
+    
+- [[K Closest Points to Origin]]
+    
+- [[Find Median from Data Stream]]
+    
+- [[Merge k Sorted Lists]]
+    
+- [[Task Scheduler]]
+    
+- [[Meeting Rooms II]]
+    
+- [[Smallest Range Covering Elements from K Lists]]
+    
+
+**CSES**
+
+- [[Concert Tickets]]
+    
+- [[Room Allocation]]
+    
+- [[Tasks and Deadlines]]
+    
+
+---
+
+# 19 — Trie
+
+## [[20 — Trie Pattern]]
+
+### Topics
+
+- [[20.01 — Trie Fundamentals]]
+    
+- [[20.02 — Insert]]
+    
+- [[20.03 — Search]]
+    
+- [[20.04 — Prefix Search]]
+    
+- [[20.05 — Delete]]
+    
+- [[20.06 — Word Dictionary]]
+    
+- [[20.07 — Trie + DFS]]
+    
+- [[20.08 — Bitwise Trie]]
+    
+- [[20.09 — XOR Trie]]
+    
+
+### Problems
+
+- [[Implement Trie]]
+    
+- [[Design Add and Search Words Data Structure]]
+    
+- [[Word Search II]]
+    
+- [[Replace Words]]
+    
+- [[Prefix and Suffix Search]]
+    
+- [[Maximum XOR of Two Numbers in an Array]]
+    
+
+---
+
+# 20 — Graph Fundamentals
+
+## [[21 — Graph]]
+
+### Representations
+
+- [[21.01 — Adjacency Matrix]]
+    
+- [[21.02 — Adjacency List]]
+    
+- [[21.03 — Edge List]]
+    
+- [[21.04 — Directed Graph]]
+    
+- [[21.05 — Undirected Graph]]
+    
+- [[21.06 — Weighted Graph]]
+    
+- [[21.07 — Unweighted Graph]]
+    
+- [[21.08 — Connected Graph]]
+    
+
+---
+
+# 21 — Graph Traversal
+
+## [[22 — DFS Pattern]]
+
+### Patterns
+
+- [[22.01 — Recursive DFS]]
+    
+- [[22.02 — Iterative DFS]]
+    
+- [[22.03 — Grid DFS]]
+    
+- [[22.04 — Component DFS]]
+    
+- [[22.05 — Cycle Detection DFS]]
+    
+- [[22.06 — Path Finding DFS]]
+    
+- [[22.07 — Backtracking DFS]]
+    
+
+### Problems
+
+- [[Number of Islands]]
+    
+- [[Max Area of Island]]
+    
+- [[Clone Graph]]
+    
+- [[Flood Fill]]
+    
+- [[Keys and Rooms]]
+    
+- [[Pacific Atlantic Water Flow]]
+    
+- [[Surrounded Regions]]
+    
+- [[Path With Maximum Gold]]
+    
+
+---
+
+# 22 — BFS
+
+## [[23 — BFS Pattern]]
+
+### Patterns
+
+- [[23.01 — Standard BFS]]
+    
+- [[23.02 — Grid BFS]]
+    
+- [[23.03 — Multi-source BFS]]
+    
+- [[23.04 — Level Order BFS]]
+    
+- [[23.05 — Shortest Path BFS]]
+    
+- [[23.06 — 0-1 BFS]]
+    
+- [[23.07 — State Space BFS]]
+    
+- [[23.08 — BFS + Bitmask]]
+    
+
+### Problems
+
+- [[Binary Tree Level Order Traversal]]
+    
+- [[Rotting Oranges]]
+    
+- [[01 Matrix]]
+    
+- [[Walls and Gates]]
+    
+- [[Word Ladder]]
+    
+- [[Open the Lock]]
+    
+- [[Shortest Path in Binary Matrix]]
+    
+- [[Minimum Genetic Mutation]]
+    
+
+**CSES**
+
+- [[Labyrinth]]
+    
+- [[Message Route]]
+    
+- [[Monsters]]
+    
+
+---
+
+# 23 — Connected Components
+
+## [[24 — Connected Components Pattern]]
+
+### Topics
+
+- DFS Components
+    
+- BFS Components
+    
+- DSU Components
+    
+- Grid Components
+    
+- Dynamic Components
+    
+
+### Problems
+
+- [[Number of Islands]]
+    
+- [[Number of Provinces]]
+    
+- [[Number of Connected Components in an Undirected Graph]]
+    
+- [[Accounts Merge]]
+    
+- [[Making A Large Island]]
+    
+
+**CSES**
+
+- [[Building Roads]]
+    
+- [[Building Teams]]
+    
+- [[Counting Rooms]]
+    
+
+---
+
+# 24 — Cycle Detection
+
+## [[25 — Cycle Detection]]
+
+### Undirected Graph
+
+- DFS
+    
+- BFS
+    
+- DSU
+    
+
+### Directed Graph
+
+- DFS Recursion Stack
+    
+- Kahn's Algorithm
+    
+
+### Problems
+
+- [[Graph Valid Tree]]
+    
+- [[Course Schedule]]
+    
+- [[Course Schedule II]]
+    
+- [[Redundant Connection]]
+    
+- [[Detect Cycles in 2D Grid]]
+    
+
+---
+
+# 25 — Topological Sort
+
+## [[26 — Topological Sort Pattern]]
+
+### Algorithms
+
+- [[26.01 — Kahn's Algorithm]]
+    
+- [[26.02 — DFS Topological Sort]]
+    
+- [[26.03 — Cycle Detection]]
+    
+- [[26.04 — Dependency Graph]]
+    
+
+### Problems
+
+- [[Course Schedule]]
+    
+- [[Course Schedule II]]
+    
+- [[Alien Dictionary]]
+    
+- [[Parallel Courses]]
+    
+- [[Find All Possible Recipes from Given Supplies]]
+    
+
+**CSES**
+
+- [[Course Schedule]]
+    
+
+**Codeforces**
+
+- [[Kahn's Algorithm Problems]]
+    
+- [[Prerequisite Problems]]
+    
+
+---
+
+# 26 — Disjoint Set Union
+
+## [[27 — DSU / Union Find]]
+
+### Topics
+
+- [[27.01 — Parent Array]]
+    
+- [[27.02 — Find]]
+    
+- [[27.03 — Union]]
+    
+- [[27.04 — Path Compression]]
+    
+- [[27.05 — Union by Rank]]
+    
+- [[27.06 — Union by Size]]
+    
+- [[27.07 — Dynamic Connectivity]]
+    
+
+### Problems
+
+- [[Number of Provinces]]
+    
+- [[Redundant Connection]]
+    
+- [[Accounts Merge]]
+    
+- [[Most Stones Removed with Same Row or Column]]
+    
+- [[Number of Islands II]]
+    
+- [[Checking Existence of Edge Length Limited Paths]]
+    
+
+**CSES**
+
+- [[Road Construction]]
+    
+
+---
+
+# 27 — Shortest Path
+
+## [[28 — Shortest Path Algorithms]]
+
+### Unweighted
+
+- BFS
+    
+
+### Weighted Positive
+
+- [[28.01 — Dijkstra]]
+    
+
+### Negative Edges
+
+- [[28.02 — Bellman Ford]]
+    
+
+### All Pairs
+
+- [[28.03 — Floyd Warshall]]
+    
+
+### Special Graphs
+
+- [[28.04 — 0-1 BFS]]
+    
+- [[28.05 — DAG Shortest Path]]
+    
+
+### Problems
+
+- [[Network Delay Time]]
+    
+- [[Cheapest Flights Within K Stops]]
+    
+- [[Path With Minimum Effort]]
+    
+- [[Swim in Rising Water]]
+    
+- [[Shortest Path in Binary Matrix]]
+    
+
+**CSES**
+
+- [[Shortest Routes I]]
+    
+- [[Shortest Routes II]]
+    
+- [[Flight Discount]]
+    
+- [[Flight Routes]]
+    
+
+---
+
+# 28 — Minimum Spanning Tree
+
+## [[29 — MST Pattern]]
+
+### Algorithms
+
+- [[29.01 — Kruskal]]
+    
+- [[29.02 — Prim]]
+    
+- [[29.03 — DSU + Kruskal]]
+    
+- [[29.04 — Priority Queue + Prim]]
+    
+
+### Problems
+
+- [[Min Cost to Connect All Points]]
+    
+- [[Connecting Cities With Minimum Cost]]
+    
+- [[Optimize Water Distribution in a Village]]
+    
+
+**CSES**
+
+- [[Road Reparation]]
+    
+
+---
+
+# 29 — Advanced Graph
+
+## [[30 — Advanced Graph Algorithms]]
+
+### Topics
+
+- [[30.01 — Bridges]]
+    
+- [[30.02 — Articulation Points]]
+    
+- [[30.03 — Strongly Connected Components]]
+    
+- [[30.04 — Kosaraju]]
+    
+- [[30.05 — Tarjan]]
+    
+- [[30.06 — Euler Path]]
+    
+- [[30.07 — Euler Circuit]]
+    
+- [[30.08 — Hamiltonian Path]]
+    
+- [[30.09 — Bipartite Graph]]
+    
+- [[30.10 — Graph Coloring]]
+    
+- [[30.11 — Maximum Flow]]
+    
+- [[30.12 — Min Cut]]
+    
+- [[30.13 — Network Flow]]
+    
+- [[30.14 — Matching]]
+    
+
+### Problems
+
+- [[Critical Connections in a Network]]
+    
+- [[Is Graph Bipartite]]
+    
+- [[Possible Bipartition]]
+    
+- [[Reconstruct Itinerary]]
+    
+
+**CSES**
+
+- [[Flight Routes Check]]
+    
+- [[School Dance]]
+    
+- [[Police Chase]]
+    
+- [[Download Speed]]
+    
+- [[Teleporters Path]]
+    
+
+---
+
+# 30 — Greedy Algorithms
+
+## [[31 — Greedy Pattern]]
+
+### Patterns
+
+- [[31.01 — Activity Selection]]
+    
+- [[31.02 — Interval Scheduling]]
+    
+- [[31.03 — Sorting + Greedy]]
+    
+- [[31.04 — Greedy + Heap]]
+    
+- [[31.05 — Greedy + Two Pointer]]
+    
+- [[31.06 — Greedy + Stack]]
+    
+- [[31.07 — Exchange Argument]]
+    
+- [[31.08 — Local Optimal → Global Optimal]]
+    
+
+### Problems
+
+- [[Assign Cookies]]
+    
+- [[Jump Game]]
+    
+- [[Jump Game II]]
+    
+- [[Gas Station]]
+    
+- [[Partition Labels]]
+    
+- [[Non-overlapping Intervals]]
+    
+- [[Minimum Number of Arrows to Burst Balloons]]
+    
+- [[Task Scheduler]]
+    
+- [[Candy]]
+    
+- [[Maximum Units on a Truck]]
+    
+
+**CSES**
+
+- [[Movie Festival]]
+    
+- [[Tasks and Deadlines]]
+    
+- [[Ferris Wheel]]
+    
+- [[Apartments]]
+    
+- [[Restaurant Customers]]
+    
+
+---
+
+# 31 — Intervals
+
+## [[32 — Interval Pattern]]
+
+### Patterns
+
+- Merge Intervals
+    
+- Overlap Detection
+    
+- Sweep Line
+    
+- Interval Scheduling
+    
+- Interval Partitioning
+    
+- Difference Events
+    
+- Sorting by Start
+    
+- Sorting by End
+    
+
+### Problems
+
+- [[Merge Intervals]]
+    
+- [[Insert Interval]]
+    
+- [[Non-overlapping Intervals]]
+    
+- [[Meeting Rooms]]
+    
+- [[Meeting Rooms II]]
+    
+- [[Minimum Number of Arrows to Burst Balloons]]
+    
+- [[Employee Free Time]]
+    
+
+**CSES**
+
+- [[Restaurant Customers]]
+    
+- [[Movie Festival]]
+    
+- [[Room Allocation]]
+    
+
+---
+
+# 32 — Dynamic Programming
+
+## [[33 — Dynamic Programming]]
+
+### DP Fundamentals
+
+- [[33.01 — Recursion]]
+    
+- [[33.02 — Memoization]]
+    
+- [[33.03 — Tabulation]]
+    
+- [[33.04 — Space Optimization]]
+    
+- [[33.05 — State Definition]]
+    
+- [[33.06 — Transition]]
+    
+- [[33.07 — Base Case]]
+    
+- [[33.08 — State Compression]]
+    
+
+---
+
+## [[34 — 1D DP]]
+
+### Patterns
+
+- [[34.01 — Fibonacci DP]]
+    
+- [[34.02 — Climbing Stairs]]
+    
+- [[34.03 — House Robber]]
+    
+- [[34.04 — Min/Max DP]]
+    
+- [[34.05 — Take/Skip DP]]
+    
+- [[34.06 — State Machine DP]]
+    
+
+### Problems
+
+- [[Climbing Stairs]]
+    
+- [[Min Cost Climbing Stairs]]
+    
+- [[House Robber]]
+    
+- [[House Robber II]]
+    
+- [[Maximum Subarray]]
+    
+- [[Decode Ways]]
+    
+- [[Word Break]]
+    
+
+---
+
+# 33 — Grid DP
+
+## [[35 — Grid Dynamic Programming]]
+
+### Patterns
+
+- [[35.01 — Unique Paths]]
+    
+- [[35.02 — Obstacles]]
+    
+- [[35.03 — Minimum Path]]
+    
+- [[35.04 — Maximum Path]]
+    
+- [[35.05 — Two Direction DP]]
+    
+- [[35.06 — Multi-agent Grid DP]]
+    
+
+### Problems
+
+- [[Unique Paths]]
+    
+- [[Unique Paths II]]
+    
+- [[Minimum Path Sum]]
+    
+- [[Triangle]]
+    
+- [[Dungeon Game]]
+    
+- [[Cherry Pickup]]
+    
+- [[Cherry Pickup II]]
+    
+
+---
+
+# 34 — Knapsack DP
+
+## [[36 — Knapsack Pattern]]
+
+### Types
+
+- [[36.01 — 0/1 Knapsack]]
+    
+- [[36.02 — Unbounded Knapsack]]
+    
+- [[36.03 — Bounded Knapsack]]
+    
+- [[36.04 — Subset Sum]]
+    
+- [[36.05 — Partition DP]]
+    
+- [[36.06 — Target Sum]]
+    
+- [[36.07 — Coin Change]]
+    
+- [[36.08 — Rod Cutting]]
+    
+
+### Problems
+
+- [[Partition Equal Subset Sum]]
+    
+- [[Target Sum]]
+    
+- [[Coin Change]]
+    
+- [[Coin Change II]]
+    
+- [[Combination Sum IV]]
+    
+- [[Last Stone Weight II]]
+    
+
+**CSES**
+
+- [[Book Shop]]
+    
+- [[Money Sums]]
+    
+- [[Coin Combinations I]]
+    
+- [[Coin Combinations II]]
+    
+- [[Removal Game]]
+    
+
+---
+
+# 35 — String DP
+
+## [[37 — String Dynamic Programming]]
+
+### Patterns
+
+- [[37.01 — LCS]]
+    
+- [[37.02 — Longest Common Substring]]
+    
+- [[37.03 — Edit Distance]]
+    
+- [[37.04 — Palindromic DP]]
+    
+- [[37.05 — Word Break]]
+    
+- [[37.06 — String Interleaving]]
+    
+- [[37.07 — Wildcard Matching]]
+    
+- [[37.08 — Regular Expression Matching]]
+    
+
+### Problems
+
+- [[Longest Common Subsequence]]
+    
+- [[Edit Distance]]
+    
+- [[Word Break]]
+    
+- [[Interleaving String]]
+    
+- [[Distinct Subsequences]]
+    
+- [[Palindrome Partitioning II]]
+    
+- [[Longest Palindromic Subsequence]]
+    
+- [[Wildcard Matching]]
+    
+- [[Regular Expression Matching]]
+    
+
+**CSES**
+
+- [[Edit Distance]]
+    
+
+---
+
+# 36 — Sequence DP
+
+## [[38 — Sequence DP]]
+
+### Patterns
+
+- LIS
+    
+- LDS
+    
+- Bitonic Sequence
+    
+- Subsequence DP
+    
+- Increasing Subsequence
+    
+- State Transition
+    
+
+### Problems
+
+- [[Longest Increasing Subsequence]]
+    
+- [[Number of Longest Increasing Subsequence]]
+    
+- [[Russian Doll Envelopes]]
+    
+- [[Maximum Length of Pair Chain]]
+    
+- [[Longest Palindromic Subsequence]]
+    
+
+**CSES**
+
+- [[Increasing Subsequence]]
+    
+
+---
+
+# 37 — Interval DP
+
+## [[39 — Interval DP]]
 
 ### Pattern
 
-Whenever you see:
+Solve:
 
-```text
-n ≤ 20
-→ exponential/backtracking/bitmask may work
+`dp[l][r]`
 
-n ≤ 100
-→ O(n³) may work
+by dividing interval `[l,r]`.
 
-n ≤ 1000
-→ O(n²) may work
+### Problems
 
-n ≤ 10⁵
-→ O(n log n) / O(n)
-
-n ≤ 10⁶
-→ O(n) / optimized O(n log n)
-
-n ≥ 10⁹
-→ logarithmic / mathematical / binary search
-```
+- [[Burst Balloons]]
+    
+- [[Matrix Chain Multiplication]]
+    
+- [[Minimum Cost Tree From Leaf Values]]
+    
+- [[Palindrome Partitioning II]]
+    
+- [[Remove Boxes]]
+    
 
 ---
 
-# 1. 🧱 Programming Foundations
+# 38 — Tree DP
 
-## 1.1 Arrays
+## [[40 — Tree DP]]
 
-* [[Array Basics]]
-* [[Static Arrays]]
-* [[Dynamic Arrays]]
-* [[Array Traversal]]
-* [[Insertion]]
-* [[Deletion]]
-* [[Rotation]]
-* [[Reversal]]
-* [[Frequency Counting]]
-* [[In-place Modification]]
+### Patterns
 
-## 1.2 Strings
+- [[40.01 — Subtree DP]]
+    
+- [[40.02 — Rerooting DP]]
+    
+- [[40.03 — Tree Knapsack]]
+    
+- [[40.04 — Diameter DP]]
+    
+- [[40.05 — Independent Set]]
+    
+- [[40.06 — Matching DP]]
+    
 
-* [[String Basics]]
-* [[Character Array]]
-* [[StringBuilder]]
-* [[String Manipulation]]
-* [[Character Frequency]]
-* [[Palindrome]]
-* [[Anagram]]
-* [[Substrings]]
-* [[Subsequences]]
+### Problems
 
-## 1.3 Hashing
+**CSES**
 
-* [[HashMap]]
-* [[HashSet]]
-* [[Frequency Map]]
-* [[Counting]]
-* [[Duplicate Detection]]
-* [[Index Mapping]]
-* [[Complement Lookup]]
-
-## Core Patterns
-
-* [[Frequency Pattern]]
-* [[Lookup Pattern]]
-* [[Counting Pattern]]
-* [[Index Mapping Pattern]]
-* [[Complement Pattern]]
+- [[Tree Matching]]
+    
+- [[Tree Distances I]]
+    
+- [[Tree Distances II]]
+    
 
 ---
 
-# 2. 🔢 Mathematics for DSA
+# 39 — Bitmask DP
 
-Mathematics is extremely important for advanced problem solving.
+## [[41 — Bitmask DP]]
 
-## 2.1 Number Theory
+### Patterns
 
-* [[Prime Numbers]]
-* [[Prime Checking]]
-* [[Sieve of Eratosthenes]]
-* [[Prime Factorization]]
-* [[Divisors]]
-* [[GCD]]
-* [[LCM]]
-* [[Euclidean Algorithm]]
-* [[Extended Euclidean Algorithm]]
-* [[Modular Arithmetic]]
-* [[Modular Inverse]]
-* [[Fast Exponentiation]]
-* [[Binary Exponentiation]]
-* [[Euler Totient]]
-* [[Chinese Remainder Theorem]]
+- State Compression
+    
+- Subset Enumeration
+    
+- Assignment DP
+    
+- Traveling Salesman DP
+    
 
-## 2.2 Combinatorics
+### Problems
 
-* [[Permutations]]
-* [[Combinations]]
-* [[Pascal Triangle]]
-* [[nCr]]
-* [[Catalan Numbers]]
-* [[Inclusion Exclusion]]
+- [[Shortest Path Visiting All Nodes]]
+    
+- [[Partition to K Equal Sum Subsets]]
+    
+- [[Minimum Number of Work Sessions to Finish the Tasks]]
+    
 
-## 2.3 Mathematical Patterns
+**CSES**
 
-* [[Parity]]
-* [[Divisibility]]
-* [[Modulo Pattern]]
-* [[Digit Manipulation]]
-* [[Bitwise Mathematics]]
-* [[Invariants]]
-* [[Mathematical Observation]]
+- [[Hamiltonian Flights]]
+    
 
 ---
 
-# 3. 🔗 Linked Lists
+# 40 — Digit DP
 
-## 3.1 Fundamentals
+## [[42 — Digit DP]]
 
-* [[Singly Linked List]]
-* [[Doubly Linked List]]
-* [[Circular Linked List]]
-* [[Linked List Traversal]]
-* [[Insertion]]
-* [[Deletion]]
-* [[Reverse Linked List]]
+### Topics
 
-## 3.2 Important Problems
+- Digit State
+    
+- Position
+    
+- Tight
+    
+- Leading Zero
+    
+- Sum Constraint
+    
+- Modulo Constraint
+    
+- Digit Frequency
+    
 
-* [[Reverse Linked List]]
-* [[Middle of Linked List]]
-* [[Detect Cycle]]
-* [[Find Cycle Start]]
-* [[Remove Nth Node]]
-* [[Merge Two Sorted Lists]]
-* [[Intersection of Linked Lists]]
-* [[Palindrome Linked List]]
-* [[Reverse Nodes in K Group]]
-* [[Rotate Linked List]]
-* [[Copy List with Random Pointer]]
+### Problems
 
-## Core Patterns
+**CSES**
 
-### Pattern 1 — Fast and Slow Pointer
+- [[Counting Numbers]]
+    
 
-Use when:
+**Codeforces**
 
-* middle element
-* cycle detection
-* cycle entry
-* palindrome
-* linked-list splitting
-
-Template:
-
-```java
-ListNode slow = head;
-ListNode fast = head;
-
-while (fast != null && fast.next != null) {
-    slow = slow.next;
-    fast = fast.next.next;
-}
-```
-
-### Pattern 2 — Dummy Node
-
-Use for:
-
-* insertion/deletion
-* merging
-* removing nodes
-* manipulating head
-
-```java
-ListNode dummy = new ListNode(0);
-dummy.next = head;
-```
-
-### Pattern 3 — Reversal
-
-```java
-ListNode prev = null;
-ListNode curr = head;
-
-while (curr != null) {
-    ListNode next = curr.next;
-    curr.next = prev;
-    prev = curr;
-    curr = next;
-}
-
-return prev;
-```
+- Digit DP problems
+    
+- Number digit constraint problems
+    
 
 ---
 
-# 4. 📚 Stack
+# 41 — DP Optimization
 
-## Topics
+## [[43 — Advanced DP]]
 
-* [[Stack]]
-* [[Monotonic Stack]]
-* [[Min Stack]]
-* [[Max Stack]]
-* [[Expression Evaluation]]
-* [[Parentheses]]
-* [[Next Greater Element]]
-* [[Next Smaller Element]]
-* [[Previous Greater Element]]
-* [[Previous Smaller Element]]
+### Topics
 
-## Core Patterns
-
-* [[Matching Pattern]]
-* [[Monotonic Increasing Stack]]
-* [[Monotonic Decreasing Stack]]
-* [[Nearest Greater Pattern]]
-* [[Nearest Smaller Pattern]]
-* [[Contribution Pattern]]
-
-## Must Solve
-
-* [[Valid Parentheses]]
-* [[Min Stack]]
-* [[Daily Temperatures]]
-* [[Next Greater Element]]
-* [[Largest Rectangle in Histogram]]
-* [[Trapping Rain Water]]
+- [[43.01 — State Compression]]
+    
+- [[43.02 — Rolling Array]]
+    
+- [[43.03 — Monotonic Queue Optimization]]
+    
+- [[43.04 — Divide and Conquer DP]]
+    
+- [[43.05 — Knuth Optimization]]
+    
+- [[43.06 — Convex Hull Trick]]
+    
+- [[43.07 — Bitmask Optimization]]
+    
 
 ---
 
-# 5. 🚶 Queue and Deque
+# 42 — Divide and Conquer
 
-* [[Queue]]
-* [[Circular Queue]]
-* [[Deque]]
-* [[Priority Queue]]
-* [[Monotonic Queue]]
+## [[44 — Divide and Conquer]]
 
-## Patterns
+### Patterns
 
-* [[BFS Queue Pattern]]
-* [[Sliding Window Maximum]]
-* [[Monotonic Deque Pattern]]
+- Divide
+    
+- Solve
+    
+- Combine
+    
+- Recurrence
+    
 
----
+### Algorithms
 
-# 6. 🔍 Searching
+- Merge Sort
+    
+- Quick Sort
+    
+- Binary Search
+    
+- Closest Pair
+    
+- Inversion Count
+    
+- Fast Power
+    
 
-## 6.1 Linear Search
+### Problems
 
-* [[Linear Search]]
-
-## 6.2 Binary Search
-
-* [[Binary Search]]
-* [[Lower Bound]]
-* [[Upper Bound]]
-* [[First Occurrence]]
-* [[Last Occurrence]]
-* [[Search Insert Position]]
-* [[Search in Rotated Array]]
-* [[Peak Element]]
-* [[Minimum in Rotated Array]]
-
-## Most Important Pattern
-
-### Binary Search on Answer
-
-Recognize when:
-
-> "Find minimum possible X"
-
-or
-
-> "Find maximum possible X"
-
-and you can determine whether a candidate `X` is feasible.
-
-Pattern:
-
-```java
-long low = ...;
-long high = ...;
-
-while (low <= high) {
-    long mid = low + (high - low) / 2;
-
-    if (check(mid)) {
-        // move toward better answer
-    } else {
-        // move opposite
-    }
-}
-```
-
-## Binary Search Families
-
-* [[Exact Search]]
-* [[Boundary Search]]
-* [[Rotated Array Search]]
-* [[Peak Search]]
-* [[Binary Search on Answer]]
-* [[Minimum Feasible Value]]
-* [[Maximum Feasible Value]]
+- [[Sort an Array]]
+    
+- [[Count of Smaller Numbers After Self]]
+    
+- [[Reverse Pairs]]
+    
+- [[Kth Largest Element in an Array]]
+    
+- [[Maximum Subarray]]
+    
 
 ---
 
-# 7. ↔️ Two Pointers
+# 43 — Mathematical Algorithms
 
-## Topics
+## [[45 — Mathematics for DSA]]
 
-* [[Two Pointers]]
-* [[Opposite Direction Pointers]]
-* [[Same Direction Pointers]]
-* [[Fast Slow Pointers]]
-* [[Partition Pattern]]
+### Number Theory
 
-## Recognition
+- [[45.01 — Prime Numbers]]
+    
+- [[45.02 — Sieve of Eratosthenes]]
+    
+- [[45.03 — GCD]]
+    
+- [[45.04 — LCM]]
+    
+- [[45.05 — Euclidean Algorithm]]
+    
+- [[45.06 — Extended Euclidean]]
+    
+- [[45.07 — Modular Arithmetic]]
+    
+- [[45.08 — Modular Inverse]]
+    
+- [[45.09 — Fast Exponentiation]]
+    
+- [[45.10 — Euler Totient]]
+    
+- [[45.11 — Prime Factorization]]
+    
+- [[45.12 — Divisors]]
+    
+- [[45.13 — Chinese Remainder Theorem]]
+    
+- [[45.14 — Fermat's Little Theorem]]
+    
 
-Look for:
+### Combinatorics
 
-* sorted array
-* pair/triplet
-* target sum
-* remove duplicates
-* palindrome
-* shrinking search space
+- [[45.15 — Factorial]]
+    
+- [[45.16 — Permutation]]
+    
+- [[45.17 — Combination]]
+    
+- [[45.18 — Pascal Triangle]]
+    
+- [[45.19 — Catalan Numbers]]
+    
+- [[45.20 — Inclusion Exclusion]]
+    
 
-## Templates
+### Problems
 
-### Opposite Direction
+**LeetCode**
 
-```java
-int left = 0;
-int right = n - 1;
+- [[Count Primes]]
+    
+- [[Pow(x, n)]]
+    
+- [[Happy Number]]
+    
+- [[Excel Sheet Column Number]]
+    
+- [[Ugly Number]]
+    
+- [[Fibonacci Number]]
+    
 
-while (left < right) {
+**CSES**
 
-    if (condition) {
-        left++;
-    } else {
-        right--;
-    }
-}
-```
-
-### Same Direction
-
-```java
-int left = 0;
-
-for (int right = 0; right < n; right++) {
-
-    while (!valid()) {
-        left++;
-    }
-
-    // process window
-}
-```
-
----
-
-# 8. 🪟 Sliding Window
-
-One of the most important interview patterns.
-
-## 8.1 Fixed Window
-
-* [[Fixed Size Sliding Window]]
-* [[Maximum Sum Subarray of Size K]]
-* [[Average of Subarray]]
-
-## 8.2 Variable Window
-
-* [[Longest Substring]]
-* [[Shortest Subarray]]
-* [[Longest Subarray with Constraint]]
-* [[At Most K]]
-* [[Exactly K]]
-
-## 8.3 Advanced
-
-* [[Sliding Window Frequency Map]]
-* [[Sliding Window with Set]]
-* [[Sliding Window with Deque]]
-* [[Minimum Window Substring]]
-
-## Template
-
-```java
-int left = 0;
-
-for (int right = 0; right < n; right++) {
-
-    // add arr[right]
-
-    while (!valid()) {
-        // remove arr[left]
-        left++;
-    }
-
-    // update answer
-}
-```
-
-## Recognition Keywords
-
-* longest
-* shortest
-* continuous
-* contiguous
-* substring
-* subarray
-* at most K
-* at least K
-* distinct elements
+- [[Exponentiation]]
+    
+- [[Exponentiation II]]
+    
+- [[Divisor Analysis]]
+    
+- [[Counting Divisors]]
+    
+- [[Common Divisors]]
+    
+- [[Prime Multiples]]
+    
+- [[Binomial Coefficients]]
+    
+- [[Christmas Party]]
+    
 
 ---
 
-# 9. ➕ Prefix Sum
+# 44 — Advanced Searching
 
-## Topics
+## [[46 — Advanced Search Patterns]]
 
-* [[Prefix Sum]]
-* [[Prefix XOR]]
-* [[2D Prefix Sum]]
-* [[Difference Array]]
-* [[Range Sum]]
-* [[Range Update]]
+### Topics
 
-## Patterns
+- Binary Search
+    
+- Ternary Search
+    
+- Meet in the Middle
+    
+- Coordinate Compression
+    
+- Offline Queries
+    
+- Parallel Binary Search
+    
 
-* [[Subarray Sum]]
-* [[Subarray Sum Equals K]]
-* [[Prefix Sum + HashMap]]
-* [[Prefix XOR + HashMap]]
-* [[Difference Array Pattern]]
+### Problems
 
-## Template
+**CSES**
 
-```java
-prefix[i + 1] = prefix[i] + arr[i];
-```
+- [[Meet in the Middle]]
+    
+- [[Maximum Subarray Sum II]]
+    
 
-For subarray:
+**Codeforces**
 
-```text
-sum(l...r) = prefix[r + 1] - prefix[l]
-```
-
----
-
-# 10. 🧮 Sorting
-
-## Basic
-
-* [[Bubble Sort]]
-* [[Selection Sort]]
-* [[Insertion Sort]]
-
-## Important
-
-* [[Merge Sort]]
-* [[Quick Sort]]
-* [[Heap Sort]]
-* [[Counting Sort]]
-* [[Radix Sort]]
-* [[Bucket Sort]]
-
-## Patterns
-
-* [[Sort and Scan]]
-* [[Sort + Two Pointers]]
-* [[Sort + Greedy]]
-* [[Sort + Binary Search]]
-* [[Custom Comparator]]
-
-## Important Recognition
-
-When a problem asks:
-
-> "minimum operations"
-
-> "maximum pairs"
-
-> "closest values"
-
-> "merge intervals"
-
-First ask:
-
-**Can sorting expose the structure?**
+- Binary Search on Answer
+    
+- Meet in the Middle
+    
+- Coordinate Compression problems
+    
 
 ---
 
-# 11. 📏 Intervals
+# 45 — Range Query Data Structures
 
-## Topics
+## [[47 — Range Queries]]
 
-* [[Intervals]]
-* [[Merge Intervals]]
-* [[Insert Interval]]
-* [[Interval Intersection]]
-* [[Meeting Rooms]]
-* [[Meeting Rooms II]]
-* [[Activity Selection]]
-* [[Calendar Scheduling]]
+### Topics
 
-## Core Pattern
-
-```text
-Sort by start time.
-
-If current.start <= previous.end:
-    merge
-
-else:
-    create new interval
-```
-
-## Advanced
-
-* [[Sweep Line]]
-* [[Difference Array Intervals]]
-* [[Event Sorting]]
-* [[Coordinate Compression]]
+- [[47.01 — Prefix Sum]]
+    
+- [[47.02 — Difference Array]]
+    
+- [[47.03 — Sparse Table]]
+    
+- [[47.04 — Fenwick Tree]]
+    
+- [[47.05 — Segment Tree]]
+    
+- [[47.06 — Lazy Propagation]]
+    
+- [[47.07 — Merge Sort Tree]]
+    
+- [[47.08 — Persistent Segment Tree]]
+    
 
 ---
 
-# 12. 🧩 Recursion
+# 46 — Fenwick Tree
 
-## Fundamentals
+## [[48 — Binary Indexed Tree]]
 
-* [[Recursion]]
-* [[Base Case]]
-* [[Recursive Case]]
-* [[Call Stack]]
-* [[Recursion Tree]]
-* [[Backtracking]]
-* [[Tail Recursion]]
+### Operations
 
-## Must Master
+- Point Update
+    
+- Prefix Query
+    
+- Range Query
+    
+- Range Update
+    
+- Coordinate Compression
+    
 
-For every recursive problem identify:
+### Problems
 
-```text
-1. State
-2. Choice
-3. Base Case
-4. Transition
-5. Return Value
-```
+- [[Count of Smaller Numbers After Self]]
+    
+- [[Reverse Pairs]]
+    
 
----
+**CSES**
 
-# 13. 🔙 Backtracking
-
-## Core Patterns
-
-* [[Subsets]]
-* [[Subsequences]]
-* [[Permutations]]
-* [[Combinations]]
-* [[Combination Sum]]
-* [[Palindrome Partitioning]]
-* [[N Queens]]
-* [[Sudoku]]
-* [[Word Search]]
-* [[Rat in a Maze]]
-
-## Universal Template
-
-```java
-void backtrack(...) {
-
-    if (baseCase) {
-        answer.add(...);
-        return;
-    }
-
-    for (choice : choices) {
-
-        if (!valid(choice))
-            continue;
-
-        makeChoice(choice);
-
-        backtrack(...);
-
-        undoChoice(choice);
-    }
-}
-```
-
-## Recognition
-
-Use backtracking when:
-
-* generate all
-* find all
-* choose/not choose
-* permutations
-* combinations
-* arrangements
-* exhaustive search
-* `n` is small
+- [[Range Queries]]
+    
+- [[Salary Queries]]
+    
+- [[List Removals]]
+    
 
 ---
 
-# 14. 🌳 Trees
+# 47 — Segment Tree
 
-One of the highest-priority DSA sections.
+## [[49 — Segment Tree]]
 
-## 14.1 Binary Tree Fundamentals
+### Fundamentals
 
-* [[Binary Tree]]
-* [[Tree Node]]
-* [[Height]]
-* [[Depth]]
-* [[Level]]
-* [[Leaf Node]]
-* [[Subtree]]
+- [[49.01 — Build]]
+    
+- [[49.02 — Query]]
+    
+- [[49.03 — Point Update]]
+    
+- [[49.04 — Range Update]]
+    
+- [[49.05 — Lazy Propagation]]
+    
 
-## 14.2 Traversals
+### Node Patterns
 
-* [[Preorder]]
-* [[Inorder]]
-* [[Postorder]]
-* [[Level Order]]
-* [[Zigzag Traversal]]
-* [[Boundary Traversal]]
-* [[Vertical Traversal]]
-* [[Diagonal Traversal]]
-* [[Top View]]
-* [[Bottom View]]
-* [[Left View]]
-* [[Right View]]
+- Sum
+    
+- Minimum
+    
+- Maximum
+    
+- GCD
+    
+- XOR
+    
+- Frequency
+    
+- Maximum Subarray
+    
+- Custom Node
+    
 
-## 14.3 Tree Patterns
+### Advanced
 
-### Pattern 1 — DFS Return Information
+- Merge Sort Tree
+    
+- Persistent Segment Tree
+    
+- Dynamic Segment Tree
+    
 
-Use when the answer depends on child subtrees.
+### Problems
 
-```java
-int dfs(Node root) {
+**CSES**
 
-    if (root == null)
-        return 0;
-
-    int left = dfs(root.left);
-    int right = dfs(root.right);
-
-    return ...;
-}
-```
-
-Used for:
-
-* [[Tree Height]]
-* [[Balanced Binary Tree]]
-* [[Diameter]]
-* [[Maximum Path Sum]]
-* [[Maximum Depth]]
-
-### Pattern 2 — DFS Carry Information
-
-```java
-void dfs(Node node, int value) {
-    ...
-}
-```
-
-Used for:
-
-* [[Root to Leaf Path]]
-* [[Path Sum]]
-* [[Binary Number from Root to Leaf]]
-* [[Tree Path Problems]]
-
-### Pattern 3 — Global Answer
-
-```java
-int ans = 0;
-
-int dfs(Node root) {
-    ...
-    ans = Math.max(ans, value);
-    return value;
-}
-```
-
-Used for:
-
-* [[Diameter of Binary Tree]]
-* [[Maximum Path Sum]]
-* [[Longest Path]]
-
-### Pattern 4 — BFS
-
-```java
-Queue<Node> q = new LinkedList<>();
-q.offer(root);
-
-while (!q.isEmpty()) {
-
-    int size = q.size();
-
-    for (int i = 0; i < size; i++) {
-        Node node = q.poll();
-    }
-}
-```
-
-Used for:
-
-* [[Level Order]]
-* [[Zigzag]]
-* [[Right Side View]]
-* [[Minimum Depth]]
-* [[Level Based Problems]]
+- [[Hotel Queries]]
+    
+- [[Dynamic Range Minimum Queries]]
+    
+- [[Range Updates and Sums]]
+    
+- [[Range Queries and Copies]]
+    
+- [[Salary Queries]]
+    
 
 ---
 
-# 15. 🌲 Binary Search Tree
+# 48 — Sparse Table
 
-## Topics
+## [[50 — Sparse Table]]
 
-* [[Binary Search Tree]]
-* [[BST Search]]
-* [[BST Insert]]
-* [[BST Delete]]
-* [[Validate BST]]
-* [[Kth Smallest in BST]]
-* [[Kth Largest in BST]]
-* [[Lowest Common Ancestor in BST]]
-* [[Predecessor]]
-* [[Successor]]
+### Topics
 
-## Key Insight
+- Idempotent Queries
+    
+- Range Minimum Query
+    
+- Range Maximum Query
+    
+- GCD Query
+    
+- Binary Lifting
+    
 
-> **Inorder traversal of a BST produces sorted order.**
+### Problems
 
-Therefore:
+**CSES**
 
-```text
-BST + kth smallest
-→ inorder
-
-BST + range
-→ exploit ordering
-
-BST + ancestor
-→ compare values
-```
+- [[Static Range Minimum Queries]]
+    
+- [[Static Range Queries]]
+    
 
 ---
 
-# 16. 🧠 Tree Advanced Patterns
+# 49 — String Algorithms
 
-* [[Lowest Common Ancestor]]
-* [[Binary Lifting]]
-* [[Tree Diameter]]
-* [[Tree DP]]
-* [[Rerooting DP]]
-* [[Subtree Queries]]
-* [[Euler Tour]]
-* [[Tree Flattening]]
-* [[Heavy Light Decomposition]]
+## [[51 — Advanced String Algorithms]]
 
-## Must Master
+### Topics
 
-* [[LCA Binary Tree]]
-* [[LCA BST]]
-* [[Distance Between Nodes]]
-* [[Tree Diameter]]
-* [[Maximum Path]]
-* [[Subtree Sum]]
-* [[Tree Queries]]
+- [[51.01 — KMP]]
+    
+- [[51.02 — Prefix Function]]
+    
+- [[51.03 — Z Algorithm]]
+    
+- [[51.04 — Rabin Karp]]
+    
+- [[51.05 — Rolling Hash]]
+    
+- [[51.06 — Manacher]]
+    
+- [[51.07 — Suffix Array]]
+    
+- [[51.08 — Suffix Tree]]
+    
+- [[51.09 — Aho Corasick]]
+    
 
----
+### Problems
 
-# 17. 🗺️ Graphs
+**CSES**
 
-Graphs are mandatory for high-level DSA.
-
-## 17.1 Fundamentals
-
-* [[Graph]]
-* [[Vertex]]
-* [[Edge]]
-* [[Directed Graph]]
-* [[Undirected Graph]]
-* [[Weighted Graph]]
-* [[Unweighted Graph]]
-* [[Connected Graph]]
-* [[Disconnected Graph]]
-* [[Degree]]
-* [[Indegree]]
-* [[Outdegree]]
-
-## Representation
-
-* [[Adjacency Matrix]]
-* [[Adjacency List]]
-* [[Edge List]]
+- [[String Matching]]
+    
+- [[Finding Borders]]
+    
+- [[Finding Periods]]
+    
+- [[Palindrome Queries]]
+    
+- [[Distinct Substrings]]
+    
+- [[Substring Distribution]]
+    
 
 ---
 
-# 18. 🔎 Graph Traversal
+# 50 — Advanced Tree Algorithms
 
-## DFS
+## [[52 — Advanced Trees]]
 
-* [[Graph DFS]]
-* [[Recursive DFS]]
-* [[Iterative DFS]]
+### Topics
 
-Template:
-
-```java
-void dfs(int node) {
-
-    visited[node] = true;
-
-    for (int next : graph[node]) {
-
-        if (!visited[next]) {
-            dfs(next);
-        }
-    }
-}
-```
-
-## BFS
-
-* [[Graph BFS]]
-* [[Shortest Path Unweighted Graph]]
-* [[Multi Source BFS]]
-
-Template:
-
-```java
-Queue<Integer> q = new LinkedList<>();
-
-q.offer(source);
-visited[source] = true;
-
-while (!q.isEmpty()) {
-
-    int node = q.poll();
-
-    for (int next : graph[node]) {
-
-        if (!visited[next]) {
-            visited[next] = true;
-            q.offer(next);
-        }
-    }
-}
-```
+- [[52.01 — AVL Tree]]
+    
+- [[52.02 — Red Black Tree]]
+    
+- [[52.03 — B Tree]]
+    
+- [[52.04 — B+ Tree]]
+    
+- [[52.05 — Treap]]
+    
+- [[52.06 — Splay Tree]]
+    
+- [[52.07 — Ordered Set]]
+    
+- [[52.08 — Order Statistics Tree]]
+    
+- [[52.09 — Binary Lifting]]
+    
+- [[52.10 — Euler Tour]]
+    
+- [[52.11 — Heavy Light Decomposition]]
+    
 
 ---
 
-# 19. 🔗 Graph Core Patterns
+# 51 — Binary Lifting
 
-## Pattern 1 — Connected Components
+## [[53 — Binary Lifting Pattern]]
 
-* [[Number of Islands]]
-* [[Connected Components]]
-* [[Flood Fill]]
-* [[Counting Components]]
+### Applications
 
-Recognition:
+- Kth Ancestor
+    
+- LCA
+    
+- Tree Queries
+    
+- Functional Graphs
+    
 
-> "How many groups?"
+### Problems
 
-> "How many islands?"
+**CSES**
 
-> "How many disconnected regions?"
-
----
-
-## Pattern 2 — Cycle Detection
-
-### Undirected
-
-* [[Cycle Detection Undirected Graph]]
-* [[DFS Parent Method]]
-* [[DSU Cycle Detection]]
-
-### Directed
-
-* [[Cycle Detection Directed Graph]]
-* [[DFS Recursion Stack]]
-* [[Kahn Algorithm]]
+- [[Company Queries I]]
+    
+- [[Company Queries II]]
+    
+- [[Planet Queries I]]
+    
+- [[Planet Queries II]]
+    
 
 ---
 
-# 20. 🧭 Topological Sort
+# 52 — Euler Tour
 
-* [[Topological Sort]]
-* [[Kahn Algorithm]]
-* [[DFS Topological Sort]]
-* [[Course Schedule]]
-* [[Course Schedule II]]
-* [[Dependency Graph]]
+## [[54 — Euler Tour Technique]]
 
-## Recognition
+### Patterns
 
-Whenever you see:
+- Flatten Tree
+    
+- Subtree Range
+    
+- Entry/Exit Time
+    
+- Tree → Array
+    
+- Subtree Query
+    
 
-```text
-prerequisite
-dependency
-before
-after
-ordering
-task dependency
-build order
-course prerequisite
-```
+### Applications
 
-Think:
-
-> **Directed Graph + Topological Sort**
-
----
-
-# 21. 🛣️ Shortest Path
-
-## Unweighted
-
-* [[BFS Shortest Path]]
-
-## Weighted
-
-* [[Dijkstra]]
-* [[Bellman Ford]]
-* [[Floyd Warshall]]
-
-## Special Cases
-
-* [[0-1 BFS]]
-* [[DAG Shortest Path]]
-* [[Multi Source Shortest Path]]
-
-## Recognition
-
-```text
-unweighted
-→ BFS
-
-positive weighted
-→ Dijkstra
-
-negative edges
-→ Bellman Ford
-
-all pairs
-→ Floyd Warshall
-
-weights only 0/1
-→ 0-1 BFS
-```
+- Subtree Sum
+    
+- Subtree Update
+    
+- LCA
+    
+- Segment Tree + Tree
+    
 
 ---
 
-# 22. 🔗 Disjoint Set Union
+# 53 — Heavy Light Decomposition
 
-* [[Disjoint Set Union]]
-* [[Union Find]]
-* [[Path Compression]]
-* [[Union by Rank]]
-* [[Union by Size]]
+## [[55 — Heavy Light Decomposition]]
 
-Template:
+### Topics
 
-```java
-int find(int x) {
-    if (parent[x] == x)
-        return x;
+- Heavy Edge
+    
+- Light Edge
+    
+- Chain Decomposition
+    
+- Position Mapping
+    
+- Segment Tree + HLD
+    
+- Path Query
+    
+- Path Update
+    
+- Subtree Query
+    
 
-    return parent[x] = find(parent[x]);
-}
+### Target Problems
 
-void union(int a, int b) {
+**CSES**
 
-    a = find(a);
-    b = find(b);
-
-    if (a == b)
-        return;
-
-    if (size[a] < size[b]) {
-        int temp = a;
-        a = b;
-        b = temp;
-    }
-
-    parent[b] = a;
-    size[a] += size[b];
-}
-```
-
-## Applications
-
-* [[Connected Components]]
-* [[Cycle Detection]]
-* [[Kruskal]]
-* [[Network Connectivity]]
-* [[Dynamic Connectivity]]
+- [[Path Queries]]
+    
+- [[Path Queries II]]
+    
+- [[Company Queries II]]
+    
 
 ---
 
-# 23. 🌐 Minimum Spanning Tree
+# 54 — Advanced Graph Theory
 
-* [[Minimum Spanning Tree]]
-* [[Kruskal Algorithm]]
-* [[Prim Algorithm]]
+## [[56 — Strongly Connected Components]]
 
-## Recognition
+### Algorithms
 
-Look for:
+- Kosaraju
+    
+- Tarjan
+    
 
-> Connect all nodes with minimum total cost.
+### Problems
 
----
+**CSES**
 
-# 24. 🏔️ Heap / Priority Queue
-
-## Topics
-
-* [[Heap]]
-* [[Min Heap]]
-* [[Max Heap]]
-* [[Priority Queue]]
-* [[Heapify]]
-* [[Kth Largest]]
-* [[Kth Smallest]]
-* [[Top K Elements]]
-* [[Median]]
-* [[Merge K Sorted Lists]]
-
-## Patterns
-
-* [[Top K Pattern]]
-* [[Two Heap Pattern]]
-* [[Kth Element Pattern]]
-* [[Priority Queue Greedy]]
-* [[Heap + Graph]]
-
-### Top K Template
-
-```java
-PriorityQueue<Integer> pq =
-    new PriorityQueue<>();
-
-for (int x : arr) {
-
-    pq.offer(x);
-
-    if (pq.size() > k)
-        pq.poll();
-}
-```
+- [[Coin Collector]]
+    
+- [[Flight Routes Check]]
+    
 
 ---
 
-# 25. 🔤 Trie
+# 55 — Bridges & Articulation Points
 
-## Topics
+## [[57 — Bridge Pattern]]
 
-* [[Trie]]
-* [[Trie Insert]]
-* [[Trie Search]]
-* [[Trie Prefix Search]]
-* [[Trie Delete]]
-* [[Word Dictionary]]
-* [[Word Search Trie]]
+### Topics
 
-## Applications
+- Discovery Time
+    
+- Low Link
+    
+- Bridge
+    
+- Articulation Point
+    
+- Biconnected Components
+    
 
-* [[Prefix Matching]]
-* [[Autocomplete]]
-* [[Dictionary Search]]
-* [[Word Search]]
-* [[XOR Trie]]
+### Problems
 
----
-
-# 26. 💰 Greedy Algorithms
-
-Greedy is not simply "take the largest."
-
-You must understand why a local decision produces a globally optimal result.
-
-## Fundamentals
-
-* [[Greedy Algorithm]]
-* [[Greedy Choice]]
-* [[Exchange Argument]]
-* [[Optimal Substructure]]
-* [[Proof of Greedy]]
-
-## Patterns
-
-* [[Activity Selection]]
-* [[Interval Scheduling]]
-* [[Fractional Knapsack]]
-* [[Job Sequencing]]
-* [[Minimum Platforms]]
-* [[Jump Game]]
-* [[Gas Station]]
-* [[Huffman Coding]]
-* [[Meeting Scheduling]]
-
-## Recognition
-
-Ask:
-
-> Can I make the best local decision and prove it never hurts the future?
+- [[Critical Connections in a Network]]
+    
+- [[Network of Schools]]
+    
 
 ---
 
-# 27. 🧮 Dynamic Programming
+# 56 — Flow Algorithms
 
-One of the most important sections.
+## [[58 — Network Flow]]
 
-## DP Fundamentals
+### Topics
 
-* [[Dynamic Programming]]
-* [[Overlapping Subproblems]]
-* [[Optimal Substructure]]
-* [[State]]
-* [[Transition]]
-* [[Base Case]]
-* [[Memoization]]
-* [[Tabulation]]
-* [[Space Optimization]]
+- [[58.01 — Flow Network]]
+    
+- [[58.02 — Residual Graph]]
+    
+- [[58.03 — Ford Fulkerson]]
+    
+- [[58.04 — Edmonds Karp]]
+    
+- [[58.05 — Dinic]]
+    
+- [[58.06 — Min Cut]]
+    
+- [[58.07 — Bipartite Matching]]
+    
 
----
+### Problems
 
-# 28. 1D DP
+**CSES**
 
-* [[Climbing Stairs]]
-* [[House Robber]]
-* [[Fibonacci DP]]
-* [[Min Cost Climbing Stairs]]
-* [[Decode Ways]]
-
-Pattern:
-
-```text
-dp[i] = best answer considering first i elements
-```
-
----
-
-# 29. Linear DP
-
-* [[Maximum Subarray DP]]
-* [[Kadane Algorithm]]
-* [[House Robber]]
-* [[Stock DP]]
-* [[Jump Game]]
+- [[School Dance]]
+    
+- [[Police Chase]]
+    
+- [[Download Speed]]
+    
 
 ---
 
-# 30. Grid DP
+# 57 — Advanced Data Structures
 
-* [[Grid DP]]
-* [[Unique Paths]]
-* [[Minimum Path Sum]]
-* [[Maximum Path in Grid]]
-* [[Obstacle Grid]]
-* [[Cherry Pickup]]
+## [[59 — Advanced DS]]
 
-Pattern:
+### Topics
 
-```java
-dp[i][j] =
-    best(
-        dp[i-1][j],
-        dp[i][j-1]
-    ) + value;
-```
-
----
-
-# 31. Knapsack DP
-
-Extremely important.
-
-## Patterns
-
-* [[0/1 Knapsack]]
-* [[Unbounded Knapsack]]
-* [[Bounded Knapsack]]
-* [[Subset Sum]]
-* [[Partition Equal Subset Sum]]
-* [[Target Sum]]
-* [[Coin Change]]
-* [[Coin Change II]]
-
-## Recognition
-
-Look for:
-
-```text
-choose / don't choose
-weight
-capacity
-target
-sum
-items
-maximum value
-minimum coins
-```
+- Disjoint Set Union
+    
+- Fenwick Tree
+    
+- Segment Tree
+    
+- Sparse Table
+    
+- Trie
+    
+- Ordered Set
+    
+- Multiset
+    
+- Monotonic Stack
+    
+- Monotonic Queue
+    
+- Skip List
+    
+- Treap
+    
+- Persistent Data Structures
+    
+- Link-Cut Tree
+    
 
 ---
 
-# 32. Subsequence DP
+# 58 — Monotonic Structures
 
-* [[Longest Increasing Subsequence]]
-* [[Longest Common Subsequence]]
-* [[Longest Palindromic Subsequence]]
-* [[Edit Distance]]
-* [[Distinct Subsequences]]
-* [[Shortest Common Supersequence]]
+## [[60 — Monotonic Stack & Queue]]
 
-## Pattern
+### Stack Patterns
 
-Usually:
+- Next Greater
+    
+- Next Smaller
+    
+- Previous Greater
+    
+- Previous Smaller
+    
+- Histogram
+    
+- Contribution Technique
+    
 
-```text
-dp[i][j]
-```
+### Queue Patterns
 
-represents the best answer using prefixes of two sequences.
+- Sliding Maximum
+    
+- Sliding Minimum
+    
+- DP Optimization
+    
 
----
+### Problems
 
-# 33. Interval DP
-
-* [[Matrix Chain Multiplication]]
-* [[Burst Balloons]]
-* [[Palindrome Partitioning]]
-* [[Optimal BST]]
-* [[Merge Stones]]
-
-Pattern:
-
-```text
-dp[l][r]
-```
-
-means:
-
-> answer for interval `[l,r]`.
-
----
-
-# 34. Tree DP
-
-* [[House Robber III]]
-* [[Tree Diameter DP]]
-* [[Maximum Independent Set Tree]]
-* [[Subtree DP]]
-* [[Rerooting DP]]
+- [[Daily Temperatures]]
+    
+- [[Next Greater Element I]]
+    
+- [[Next Greater Element II]]
+    
+- [[Largest Rectangle in Histogram]]
+    
+- [[Sum of Subarray Minimums]]
+    
+- [[Sum of Subarray Ranges]]
+    
+- [[Sliding Window Maximum]]
+    
 
 ---
 
-# 35. Bitmask DP
+# 59 — Meet in the Middle
 
-* [[Bitmask DP]]
-* [[State Compression]]
-* [[Traveling Salesman DP]]
-* [[Subset DP]]
-* [[Assignment DP]]
+## [[61 — Meet in the Middle Pattern]]
 
-Use when:
+### Pattern
 
-```text
-n is small
-AND
-state depends on selected/unselected elements
-```
-
-Typical:
-
-```text
-n ≤ 20
-```
-
----
-
-# 36. DP Recognition Framework
-
-Whenever you see an optimization problem, ask:
-
-```text
-1. Can I divide the problem into states?
-
-2. Does the same state appear repeatedly?
-
-3. What information defines a state?
-
-4. What choices can I make?
-
-5. What is the transition?
-
-6. What is the base case?
-
-7. Can I memoize?
-
-8. Can I convert to tabulation?
-
-9. Can I optimize memory?
-```
-
----
-
-# 37. 🧠 Bit Manipulation
-
-## Basics
-
-* [[Binary Number System]]
-* [[Bitwise AND]]
-* [[Bitwise OR]]
-* [[Bitwise XOR]]
-* [[Bitwise NOT]]
-* [[Left Shift]]
-* [[Right Shift]]
-
-## Important Tricks
-
-* [[Check Odd Even]]
-* [[Check Power of Two]]
-* [[Set Bit]]
-* [[Clear Bit]]
-* [[Toggle Bit]]
-* [[Count Set Bits]]
-* [[Lowest Set Bit]]
-* [[XOR Properties]]
-* [[Swap Using XOR]]
-
-## Advanced
-
-* [[Bitmask]]
-* [[Subsets Using Bitmask]]
-* [[Bitmask DP]]
-* [[XOR Trie]]
-* [[XOR Basis]]
-
----
-
-# 38. 📊 Advanced Array Patterns
-
-## Difference Array
-
-* [[Difference Array]]
-* [[Range Increment]]
-* [[Range Update]]
-
-## Kadane
-
-* [[Kadane Algorithm]]
-* [[Maximum Subarray]]
-* [[Circular Maximum Subarray]]
-
-## Prefix + Hashing
-
-* [[Subarray Sum K]]
-* [[Longest Subarray Sum K]]
-* [[Equal 0 and 1]]
-
-## XOR
-
-* [[Subarray XOR]]
-* [[XOR Prefix]]
-* [[Single Number]]
-* [[Missing Number]]
-
----
-
-# 39. 📦 Monotonic Structures
-
-## Monotonic Stack
-
-* [[Next Greater Element]]
-* [[Previous Greater Element]]
-* [[Next Smaller Element]]
-* [[Largest Rectangle]]
-* [[Stock Span]]
-* [[Daily Temperatures]]
-
-## Monotonic Queue
-
-* [[Sliding Window Maximum]]
-* [[Sliding Window Minimum]]
-
-Recognition:
-
-> Need the nearest greater/smaller element or maintain min/max over a moving range.
-
----
-
-# 40. 🔢 Ordered Data Structures
-
-* [[TreeSet]]
-* [[TreeMap]]
-* [[Ordered Set]]
-* [[Ordered Map]]
-* [[Ceiling]]
-* [[Floor]]
-* [[Lower Bound]]
-* [[Upper Bound]]
-
-Applications:
-
-* [[Dynamic Ordering]]
-* [[Range Queries]]
-* [[Predecessor Successor]]
-* [[Interval Queries]]
-
----
-
-# 41. 🌳 Segment Tree
-
-Very important for advanced competitive programming.
-
-## Fundamentals
-
-* [[Segment Tree]]
-* [[Build Segment Tree]]
-* [[Point Update]]
-* [[Range Query]]
-* [[Range Update]]
-
-## Query Types
-
-* [[Range Sum Query]]
-* [[Range Minimum Query]]
-* [[Range Maximum Query]]
-* [[Range GCD Query]]
-* [[Range XOR Query]]
-
-## Advanced
-
-* [[Lazy Propagation]]
-* [[Lazy Segment Tree]]
-* [[Segment Tree Beats]]
-
-## Recognition
-
-Look for:
-
-```text
-n ≥ 10^5
-
-many queries
-
-range query
-
-updates between queries
-```
-
-Example:
-
-```text
-Update index i
-Query [l,r]
-Update index j
-Query [x,y]
-...
-```
-
-Think:
-
-> **Segment Tree / Fenwick Tree**
-
----
-
-# 42. 🌲 Fenwick Tree
-
-Also called:
-
-* [[Binary Indexed Tree]]
-* [[Fenwick Tree]]
-
-Topics:
-
-* [[Point Update]]
-* [[Prefix Sum Query]]
-* [[Range Sum]]
-* [[Coordinate Compression]]
-* [[Inversion Count]]
-
-Recognition:
-
-> Dynamic prefix/range sums with updates.
-
----
-
-# 43. 🧮 Sparse Table
-
-* [[Sparse Table]]
-* [[Range Minimum Query]]
-* [[Idempotent Queries]]
-* [[Binary Lifting Connection]]
-
-Recognition:
-
-> Many static range queries + no updates.
-
----
-
-# 44. 🧭 Advanced Graph Algorithms
-
-## Strongly Connected Components
-
-* [[SCC]]
-* [[Kosaraju Algorithm]]
-* [[Tarjan Algorithm]]
-
-## Bridges
-
-* [[Bridge]]
-* [[Tarjan Bridge Algorithm]]
-
-## Articulation Points
-
-* [[Articulation Point]]
-* [[Cut Vertex]]
-
-## Biconnected Components
-
-* [[Biconnected Components]]
-
----
-
-# 45. 🌊 Network Flow
-
-Advanced competitive programming topic.
-
-* [[Max Flow]]
-* [[Min Cut]]
-* [[Ford Fulkerson]]
-* [[Edmonds Karp]]
-* [[Dinic Algorithm]]
-* [[Bipartite Matching]]
-* [[Flow Network]]
-
----
-
-# 46. 🔀 Bipartite Graph
-
-* [[Bipartite Graph]]
-* [[Bipartite BFS]]
-* [[Bipartite DFS]]
-* [[2 Coloring]]
-* [[Bipartite Matching]]
-
-Recognition:
-
-> Divide nodes into two groups such that connected nodes belong to opposite groups.
-
----
-
-# 47. 🎯 Advanced Searching
-
-* [[Ternary Search]]
-* [[Meet in the Middle]]
-* [[Coordinate Compression]]
-* [[Parallel Binary Search]]
-* [[Parametric Search]]
-
----
-
-# 48. 🧩 Meet in the Middle
-
-Use when:
-
-```text
-n ≈ 40
-```
-
-and brute force:
-
-```text
-2^40
-```
-
-is too large.
+`N too large for brute force`
 
 Split:
 
-```text
-n/2 + n/2
-```
+`N → N/2 + N/2`
 
-Then solve each half.
+Generate possibilities for both halves.
 
-Applications:
+### Problems
 
-* [[Subset Sum Meet in Middle]]
-* [[Closest Subset Sum]]
-* [[Bitmask Optimization]]
+**CSES**
 
----
+- [[Meet in the Middle]]
+    
 
-# 49. 🧠 Divide and Conquer
+**Codeforces**
 
-* [[Divide and Conquer]]
-* [[Merge Sort]]
-* [[Quick Sort]]
-* [[Binary Search]]
-* [[Closest Pair]]
-* [[Count Inversions]]
-* [[Divide and Conquer DP]]
+- Subset sum meet-in-the-middle
+    
+- Bitmask meet-in-the-middle
+    
 
 ---
 
-# 50. 🔢 String Algorithms
+# 60 — Sweep Line
 
-## Basic
+## [[62 — Sweep Line Pattern]]
 
-* [[String Hashing]]
-* [[Rolling Hash]]
-* [[String Matching]]
+### Topics
 
-## Advanced
+- Event Points
+    
+- Sorting Events
+    
+- Active Intervals
+    
+- Coordinate Compression
+    
+- Difference Events
+    
+- Priority Queue + Sweep Line
+    
 
-* [[KMP]]
-* [[Z Algorithm]]
-* [[Rabin Karp]]
-* [[Manacher Algorithm]]
-* [[Suffix Array]]
-* [[Suffix Automaton]]
-* [[Aho Corasick]]
+### Problems
 
-## Recognition
+- [[Meeting Rooms II]]
+    
+- [[The Skyline Problem]]
+    
+- [[Rectangle Area II]]
+    
+- [[My Calendar III]]
+    
 
-### KMP
+**CSES**
 
-Pattern matching with repeated prefixes.
-
-### Rolling Hash
-
-Fast substring comparison.
-
-### Manacher
-
-Longest palindromic substring.
-
-### Aho-Corasick
-
-Multiple pattern matching.
-
----
-
-# 51. 🧬 Advanced DP
-
-* [[Digit DP]]
-* [[Probability DP]]
-* [[Expected Value DP]]
-* [[Game DP]]
-* [[DP on DAG]]
-* [[Profile DP]]
-* [[Bitmask DP]]
-* [[Tree DP]]
-* [[Interval DP]]
-* [[SOS DP]]
-* [[Convex Hull Trick DP]]
-* [[Divide and Conquer Optimization]]
-* [[Knuth Optimization]]
+- [[Restaurant Customers]]
+    
 
 ---
 
-# 52. 🎮 Game Theory
+# 61 — Computational Geometry
 
-* [[Game Theory]]
-* [[Winning State]]
-* [[Losing State]]
-* [[Nim Game]]
-* [[Sprague Grundy]]
-* [[Grundy Number]]
-* [[Minimax]]
-* [[Alpha Beta Pruning]]
+## [[63 — Geometry]]
 
----
+### Topics
 
-# 53. 🧠 Computational Geometry
+- [[63.01 — Points]]
+    
+- [[63.02 — Lines]]
+    
+- [[63.03 — Distance]]
+    
+- [[63.04 — Slope]]
+    
+- [[63.05 — Cross Product]]
+    
+- [[63.06 — Orientation]]
+    
+- [[63.07 — Segment Intersection]]
+    
+- [[63.08 — Convex Hull]]
+    
+- [[63.09 — Polygon Area]]
+    
+- [[63.10 — Point in Polygon]]
+    
 
-Advanced but useful for competitive programming.
+### Problems
 
-* [[Point Geometry]]
-* [[Distance Between Points]]
-* [[Orientation]]
-* [[Cross Product]]
-* [[Line Intersection]]
-* [[Segment Intersection]]
-* [[Convex Hull]]
-* [[Sweep Line]]
-* [[Closest Pair of Points]]
-* [[Polygon Area]]
-* [[Point in Polygon]]
+**CSES**
 
----
-
-# 54. 🎯 Problem-Solving Patterns Master List
-
-This is the most important section for your goal.
-
-## Pattern 1 — Frequency Map
-
-```text
-Question:
-How often does something occur?
-
-Think:
-HashMap / array frequency
-```
+- [[Point Location Test]]
+    
+- [[Line Segment Intersection]]
+    
+- [[Polygon Area]]
+    
+- [[Point in Polygon]]
+    
+- [[Convex Hull]]
+    
 
 ---
 
-## Pattern 2 — Hash Lookup
+# 62 — Randomized Algorithms
 
-```text
-Need fast existence/search?
+## [[64 — Randomized Algorithms]]
 
-Think:
-HashSet / HashMap
-```
+### Topics
 
----
+- Randomized QuickSort
+    
+- Randomized Selection
+    
+- Reservoir Sampling
+    
+- Randomized Hashing
+    
+- Monte Carlo
+    
+- Las Vegas
+    
 
-## Pattern 3 — Two Sum / Complement
+### Problems
 
-```text
-Need x + y = target?
-
-Store:
-target - x
-```
-
----
-
-## Pattern 4 — Two Pointers
-
-```text
-Sorted array
-Pair
-Palindrome
-Remove duplicates
-Partition
-```
+- [[Random Pick Index]]
+    
+- [[Linked List Random Node]]
+    
+- [[Shuffle an Array]]
+    
+- [[Randomized Set]]
+    
 
 ---
 
-## Pattern 5 — Sliding Window
+# 63 — Probability
 
-```text
-Continuous subarray/substring
-Longest/shortest
-At most K
-Distinct count
-```
+## [[65 — Probability for Competitive Programming]]
 
----
+### Topics
 
-## Pattern 6 — Prefix Sum
+- Basic Probability
+    
+- Expected Value
+    
+- Linearity of Expectation
+    
+- Conditional Probability
+    
+- Probability DP
+    
+- Random Processes
+    
 
-```text
-Repeated range sum
-Subarray sum
-Range query
-```
+### Problems
 
----
+**LeetCode**
 
-## Pattern 7 — Prefix Sum + HashMap
-
-```text
-Subarray sum = K
-Longest subarray satisfying sum condition
-```
-
----
-
-## Pattern 8 — Binary Search
-
-```text
-Sorted
-Monotonic
-Minimum/maximum feasible answer
-```
+- [[New 21 Game]]
+    
+- [[Soup Servings]]
+    
+- [[Knight Probability in Chessboard]]
+    
+- [[Random Pick with Weight]]
+    
 
 ---
 
-## Pattern 9 — Sort + Scan
+# 64 — Game Theory
 
-```text
-Intervals
-Greedy
-Duplicates
-Closest values
-Pairing
-```
+## [[66 — Game Theory]]
 
----
+### Topics
 
-## Pattern 10 — Monotonic Stack
+- Winning/Losing States
+    
+- Nim Game
+    
+- Grundy Numbers
+    
+- Sprague-Grundy
+    
+- Minimax
+    
+- Game DP
+    
 
-```text
-Nearest greater/smaller
-Histogram
-Temperature
-Stock span
-```
+### Problems
 
----
+- [[Nim Game]]
+    
+- [[Stone Game]]
+    
+- [[Stone Game II]]
+    
+- [[Predict the Winner]]
+    
 
-## Pattern 11 — Heap
+**CSES**
 
-```text
-Top K
-Kth largest/smallest
-Repeated minimum/maximum
-Streaming median
-```
-
----
-
-## Pattern 12 — BFS
-
-```text
-Shortest path in unweighted graph
-Level order
-Minimum number of moves
-Multi-source expansion
-```
+- [[Nim Game]]
+    
 
 ---
 
-## Pattern 13 — DFS
+# 65 — Advanced Greedy
 
-```text
-Explore
-Components
-Backtracking
-Tree traversal
-Graph traversal
-```
+## [[67 — Advanced Greedy]]
 
----
+### Topics
 
-## Pattern 14 — Multi-Source BFS
+- Exchange Argument
+    
+- Matroid-style Greedy
+    
+- Greedy + Heap
+    
+- Greedy + DSU
+    
+- Greedy + Sorting
+    
+- Greedy + Binary Search
+    
+- Scheduling
+    
+- Resource Allocation
+    
 
-```text
-Several starting points
-Spread simultaneously
-Minimum distance from nearest source
-```
+### Problems
 
-Examples:
-
-* [[Rotting Oranges]]
-* [[01 Matrix]]
-* [[Walls and Gates]]
-
----
-
-## Pattern 15 — Topological Sort
-
-```text
-Dependency
-Prerequisite
-Ordering
-DAG
-```
-
----
-
-## Pattern 16 — Union Find
-
-```text
-Connectivity
-Components
-Dynamic connections
-Cycle detection
-```
+- [[Maximum Performance of a Team]]
+    
+- [[Course Schedule III]]
+    
+- [[IPO]]
+    
+- [[Minimum Number of Refueling Stops]]
+    
+- [[Candy]]
+    
 
 ---
 
-## Pattern 17 — Greedy
+# 66 — Prefix / Suffix Techniques
 
-```text
-Local choice
-Optimal global answer
-Sort + choose
-```
+## [[68 — Prefix Suffix Pattern]]
 
----
+### Patterns
 
-## Pattern 18 — Backtracking
+- Prefix Minimum
+    
+- Prefix Maximum
+    
+- Suffix Minimum
+    
+- Suffix Maximum
+    
+- Prefix Product
+    
+- Suffix Product
+    
+- Prefix XOR
+    
+- Prefix GCD
+    
+- Prefix Frequency
+    
 
-```text
-Generate all possibilities
-n small
-Choose → Explore → Undo
-```
+### Problems
 
----
-
-## Pattern 19 — Dynamic Programming
-
-```text
-Repeated states
-Optimization
-Count ways
-Minimum/maximum
-Choose/not choose
-```
-
----
-
-## Pattern 20 — Tree DFS
-
-```text
-Answer depends on subtrees
-```
+- [[Product of Array Except Self]]
+    
+- [[Trapping Rain Water]]
+    
+- [[Left and Right Sum Differences]]
+    
+- [[Partition Array for Maximum Sum]]
+    
 
 ---
 
-## Pattern 21 — Tree BFS
+# 67 — Difference Array
 
-```text
-Level
-Distance
-Minimum depth
-View
-```
+## [[69 — Difference Array Pattern]]
 
----
+### Topics
 
-## Pattern 22 — Binary Search on Answer
+- Range Increment
+    
+- Range Decrement
+    
+- Offline Queries
+    
+- 2D Difference Array
+    
+- Imos Method
+    
 
-```text
-Find minimum/maximum X
-Check(X) is monotonic
-```
+### Problems
 
----
-
-## Pattern 23 — Difference Array
-
-```text
-Many range updates
-Few final queries
-```
-
----
-
-## Pattern 24 — Coordinate Compression
-
-```text
-Huge values
-Only relative ordering matters
-```
+- [[Corporate Flight Bookings]]
+    
+- [[Car Pooling]]
+    
+- [[Range Addition]]
+    
+- [[My Calendar II]]
+    
 
 ---
 
-## Pattern 25 — Segment Tree
+# 68 — Advanced Counting
 
-```text
-Many range queries
-AND
-Updates
-```
+## [[70 — Counting Patterns]]
 
----
+### Topics
 
-## Pattern 26 — Fenwick Tree
+- Frequency Counting
+    
+- Combinatorial Counting
+    
+- Inclusion-Exclusion
+    
+- Pigeonhole Principle
+    
+- Contribution Technique
+    
+- Coordinate Compression
+    
+- Sweep Counting
+    
 
-```text
-Dynamic prefix/range sums
-```
+### Problems
 
----
-
-## Pattern 27 — Trie
-
-```text
-Prefix
-Dictionary
-String search
-Autocomplete
-```
-
----
-
-## Pattern 28 — Bitmask
-
-```text
-Small n
-Subset selection
-```
+- [[Count of Smaller Numbers After Self]]
+    
+- [[Number of Good Pairs]]
+    
+- [[Subarray Sum Equals K]]
+    
+- [[Count Number of Bad Pairs]]
+    
+- [[Count of Range Sum]]
+    
 
 ---
 
-## Pattern 29 — Meet in the Middle
+# 69 — Advanced Query Techniques
 
-```text
-n ≈ 40
-2^n too large
-```
+## [[71 — Offline Query]]
 
----
+### Techniques
 
-## Pattern 30 — Sweep Line
-
-```text
-Intervals
-Events
-Geometric ranges
-```
-
----
-
-# 55. 🧠 The Ultimate Pattern Recognition Framework
-
-For **every new problem**, force yourself to ask these questions.
-
-```text
-STEP 1
-What is the input size?
-
-STEP 2
-What is the expected complexity?
-
-STEP 3
-Is the data sorted?
-
-STEP 4
-Is the problem asking about:
-    - subarray?
-    - substring?
-    - subsequence?
-    - subset?
-    - pair?
-    - interval?
-    - path?
-    - tree?
-    - graph?
-
-STEP 5
-Is it asking:
-    - minimum?
-    - maximum?
-    - count?
-    - existence?
-    - shortest?
-    - longest?
-    - all possibilities?
-
-STEP 6
-Can hashing solve it?
-
-STEP 7
-Can two pointers solve it?
-
-STEP 8
-Can sliding window solve it?
-
-STEP 9
-Can prefix sum solve it?
-
-STEP 10
-Can sorting simplify it?
-
-STEP 11
-Is there monotonicity?
-    → Binary Search
-
-STEP 12
-Is there nearest greater/smaller?
-    → Monotonic Stack
-
-STEP 13
-Is there top K?
-    → Heap
-
-STEP 14
-Is there connectivity?
-    → DFS/BFS/DSU
-
-STEP 15
-Is there dependency?
-    → Topological Sort
-
-STEP 16
-Is there shortest path?
-    → BFS/Dijkstra/etc.
-
-STEP 17
-Is there repeated state?
-    → DP
-
-STEP 18
-Does the problem require all possibilities?
-    → Backtracking
-
-STEP 19
-Are there range queries + updates?
-    → Segment Tree/Fenwick
-
-STEP 20
-Is n small?
-    → Bitmask / Backtracking / Exponential DP
-```
+- Sort Queries
+    
+- Sort Data
+    
+- Sweep Line
+    
+- Fenwick Tree
+    
+- Segment Tree
+    
+- DSU
+    
+- Mo's Algorithm
+    
 
 ---
 
-# 56. ⚡ Pattern Recognition Cheat Sheet
+# 70 — Mo's Algorithm
 
-| Problem Clue             | First Pattern to Think               |
-| ------------------------ | ------------------------------------ |
-| Pair sum                 | [[Two Pointers]] / [[HashMap]]       |
-| Sorted array             | [[Binary Search]] / [[Two Pointers]] |
-| Longest substring        | [[Sliding Window]]                   |
-| Shortest substring       | [[Sliding Window]]                   |
-| Subarray sum             | [[Prefix Sum]]                       |
-| Subarray sum K           | [[Prefix Sum + HashMap]]             |
-| Next greater             | [[Monotonic Stack]]                  |
-| Top K                    | [[Heap]]                             |
-| Kth largest              | [[Heap]] / [[Quickselect]]           |
-| Minimum/maximum feasible | [[Binary Search on Answer]]          |
-| Intervals                | [[Sort + Greedy]]                    |
-| Dependencies             | [[Topological Sort]]                 |
-| Shortest unweighted path | [[BFS]]                              |
-| Shortest weighted path   | [[Dijkstra]]                         |
-| Connectivity             | [[DFS/BFS/DSU]]                      |
-| Number of islands        | [[DFS/BFS]]                          |
-| Generate all             | [[Backtracking]]                     |
-| Choose/not choose        | [[DP]] / [[Backtracking]]            |
-| Repeated subproblems     | [[Dynamic Programming]]              |
-| Prefix matching          | [[Trie]]                             |
-| Range query + updates    | [[Segment Tree]]                     |
-| Dynamic prefix sum       | [[Fenwick Tree]]                     |
-| Static range minimum     | [[Sparse Table]]                     |
-| Small n ≤ 20             | [[Bitmask]]                          |
-| n ≈ 40                   | [[Meet in the Middle]]               |
-| Tree path                | [[Tree DFS]]                         |
-| Tree levels              | [[Tree BFS]]                         |
-| BST kth smallest         | [[Inorder Traversal]]                |
-| Cycle undirected         | [[DFS]] / [[DSU]]                    |
-| Cycle directed           | [[Topological Sort]] / [[DFS]]       |
-| 0/1 weights              | [[0-1 BFS]]                          |
-| All pairs shortest path  | [[Floyd Warshall]]                   |
-| Negative edges           | [[Bellman Ford]]                     |
-| Minimum connection cost  | [[MST]]                              |
-| Nearest greater/smaller  | [[Monotonic Stack]]                  |
-| Range modifications      | [[Difference Array]]                 |
+## [[72 — Mo's Algorithm]]
+
+### Topics
+
+- Offline Queries
+    
+- Block Decomposition
+    
+- Add Element
+    
+- Remove Element
+    
+- Query Maintenance
+    
+- Mo's Ordering
+    
+
+### Target Problems
+
+**CSES**
+
+- [[Distinct Values Queries]]
+    
+- Range query problems
+    
+
+**Codeforces**
+
+- Distinct range queries
+    
+- Frequency query problems
+    
 
 ---
 
-# 57. 🏗️ DSA Template Library
+# 71 — Square Root Decomposition
 
-Create a separate Obsidian folder:
+## [[73 — Sqrt Decomposition]]
 
-```text
-DSA/
-├── Templates/
-├── Patterns/
-├── Data Structures/
-├── Algorithms/
-├── Problems/
-└── Revision/
-```
+### Topics
 
-Important templates:
-
-* [[Java Fast Input Template]]
-* [[Array Template]]
-* [[HashMap Template]]
-* [[Two Pointer Template]]
-* [[Sliding Window Template]]
-* [[Prefix Sum Template]]
-* [[Binary Search Template]]
-* [[Linked List Template]]
-* [[Stack Template]]
-* [[Monotonic Stack Template]]
-* [[Heap Template]]
-* [[Tree DFS Template]]
-* [[Tree BFS Template]]
-* [[Graph DFS Template]]
-* [[Graph BFS Template]]
-* [[Topological Sort Template]]
-* [[Dijkstra Template]]
-* [[DSU Template]]
-* [[Backtracking Template]]
-* [[1D DP Template]]
-* [[2D DP Template]]
-* [[Knapsack Template]]
-* [[Trie Template]]
-* [[Fenwick Tree Template]]
-* [[Segment Tree Template]]
-* [[Bitmask Template]]
+- Block Partition
+    
+- Range Query
+    
+- Range Update
+    
+- Lazy Block Update
+    
 
 ---
 
-# 58. 🧪 Problem Classification System
+# 72 — Coordinate Compression
 
-Every problem you solve should be classified.
+## [[74 — Coordinate Compression]]
 
-Use:
+### Steps
 
-```text
-Problem
-↓
-Data Structure
-↓
-Pattern
-↓
-Technique
-↓
-Complexity
-↓
-Template
-↓
-Variation
-```
+1. Collect values
+    
+2. Sort
+    
+3. Remove duplicates
+    
+4. Map original → compressed index
+    
 
-Example:
+### Applications
 
-```text
-Longest Substring Without Repeating Characters
-
-Data Structure:
-HashSet
-
-Pattern:
-Sliding Window
-
-Technique:
-Two Pointers
-
-Complexity:
-O(n)
-
-Template:
-Variable Sliding Window
-```
-
-Another:
-
-```text
-Course Schedule
-
-Data Structure:
-Graph
-
-Pattern:
-Topological Sort
-
-Technique:
-Kahn Algorithm
-
-Complexity:
-O(V + E)
-```
+- Fenwick Tree
+    
+- Segment Tree
+    
+- Sweep Line
+    
+- Range Queries
+    
+- Geometry
+    
 
 ---
 
-# 59. 📈 Difficulty Progression
+# 73 — Contribution Technique
 
-## Level 0 — Fundamentals
+## [[75 — Contribution Pattern]]
 
-* [[Arrays]]
-* [[Strings]]
-* [[Hashing]]
-* [[Complexity]]
+### Core Idea
+
+Instead of calculating every subarray/subsequence directly:
+
+> Calculate how many times each element contributes.
+
+### Problems
+
+- [[Sum of Subarray Minimums]]
+    
+- [[Sum of Subarray Ranges]]
+    
+- [[Subarray Product Less Than K]]
+    
+- [[Total Strength of Wizards]]
+    
+
+---
+
+# 74 — Prefix XOR
+
+## [[76 — XOR Pattern]]
+
+### Patterns
+
+- XOR Cancellation
+    
+- Prefix XOR
+    
+- XOR Trie
+    
+- XOR Basis
+    
+- Maximum XOR
+    
+- XOR Subarray
+    
+
+### Problems
+
+- [[Single Number]]
+    
+- [[Missing Number]]
+    
+- [[Subarray XOR Queries]]
+    
+- [[Maximum XOR for Each Query]]
+    
+- [[Maximum XOR of Two Numbers in an Array]]
+    
+
+---
+
+# 75 — Advanced Number Theory
+
+## [[77 — Advanced Number Theory]]
+
+### Topics
+
+- Modular Exponentiation
+    
+- Modular Inverse
+    
+- Fermat's Little Theorem
+    
+- Euler Totient
+    
+- Chinese Remainder Theorem
+    
+- Mobius Function
+    
+- Sieve
+    
+- Linear Sieve
+    
+- Prime Factorization
+    
+- Divisor Functions
+    
+- GCD Properties
+    
+
+### CSES
+
+- [[Exponentiation]]
+    
+- [[Exponentiation II]]
+    
+- [[Counting Divisors]]
+    
+- [[Common Divisors]]
+    
+- [[Divisor Analysis]]
+    
+- [[Prime Multiples]]
+    
+- [[Sum of Divisors]]
+    
+
+---
+
+# 76 — Advanced Combinatorics
+
+## [[78 — Combinatorics]]
+
+### Topics
+
+- nCr
+    
+- nPr
+    
+- Factorials
+    
+- Modular nCr
+    
+- Pascal Triangle
+    
+- Catalan
+    
+- Derangements
+    
+- Inclusion Exclusion
+    
+- Stars and Bars
+    
+- Burnside's Lemma
+    
+
+### CSES
+
+- [[Binomial Coefficients]]
+    
+- [[Christmas Party]]
+    
+- [[Distributing Apples]]
+    
+
+---
+
+# 77 — String Matching
+
+## [[79 — Pattern Matching]]
+
+### Algorithms
+
+- Naive Matching
+    
+- KMP
+    
+- Z Algorithm
+    
+- Rabin-Karp
+    
+- Rolling Hash
+    
+- Aho-Corasick
+    
+
+### Problems
+
+**CSES**
+
+- [[String Matching]]
+    
+- [[Finding Borders]]
+    
+- [[Finding Periods]]
+    
+
+---
+
+# 78 — Suffix Structures
+
+## [[80 — Suffix Array & Suffix Structures]]
+
+### Topics
+
+- Suffix
+    
+- LCP
+    
+- Suffix Array
+    
+- Suffix Tree
+    
+- Suffix Automaton
+    
+
+### Problems
+
+**CSES**
+
+- [[Substring Distribution]]
+    
+- [[Distinct Substrings]]
+    
+- [[Finding Patterns]]
+    
+
+---
+
+# 79 — Automata
+
+## [[81 — Automata & Advanced Strings]]
+
+### Topics
+
+- Trie Automaton
+    
+- Aho-Corasick
+    
+- Suffix Automaton
+    
+- DFA Concepts
+    
+- State Transitions
+    
+
+---
+
+# 80 — Advanced Graph DP
+
+## [[82 — Graph DP]]
+
+### Patterns
+
+- DAG DP
+    
+- Longest Path in DAG
+    
+- Shortest Path in DAG
+    
+- Bitmask Graph DP
+    
+- Tree DP
+    
+- Functional Graph DP
+    
+
+### Problems
+
+**CSES**
+
+- [[Game Routes]]
+    
+- [[Longest Flight Route]]
+    
+- [[Hamiltonian Flights]]
+    
+- [[Coin Collector]]
+    
+
+---
+
+# 81 — Functional Graphs
+
+## [[83 — Functional Graph Pattern]]
+
+### Topics
+
+- Every node has one outgoing edge
+    
+- Cycle detection
+    
+- Binary lifting
+    
+- Distance to cycle
+    
+- Cycle length
+    
+- Component decomposition
+    
+
+### Problems
+
+**CSES**
+
+- [[Planets Queries I]]
+    
+- [[Planets Queries II]]
+    
+- [[Planets Cycles]]
+    
+
+---
+
+# 82 — Top K Pattern
+
+## [[84 — Top K Pattern]]
+
+### Techniques
+
+- Min Heap
+    
+- Max Heap
+    
+- QuickSelect
+    
+- Bucket Sort
+    
+- Frequency Map
+    
+
+### Problems
+
+- [[Kth Largest Element in an Array]]
+    
+- [[Top K Frequent Elements]]
+    
+- [[K Closest Points to Origin]]
+    
+- [[Find K Pairs with Smallest Sums]]
+    
+- [[Kth Smallest Element in a Sorted Matrix]]
+    
+
+---
+
+# 83 — QuickSelect
+
+## [[85 — QuickSelect]]
+
+### Applications
+
+- Kth Largest
+    
+- Kth Smallest
+    
+- Median
+    
+- Order Statistics
+    
+
+### Problems
+
+- [[Kth Largest Element in an Array]]
+    
+- [[Kth Largest Element in a Stream]]
+    
+- [[Find K Closest Elements]]
+    
+
+---
+
+# 84 — Design Data Structures
+
+## [[86 — Data Structure Design]]
+
+### Problems
+
+- [[LRU Cache]]
+    
+- [[LFU Cache]]
+    
+- [[Min Stack]]
+    
+- [[Max Stack]]
+    
+- [[Design Twitter]]
+    
+- [[Design Circular Queue]]
+    
+- [[Design HashMap]]
+    
+- [[Design HashSet]]
+    
+- [[Insert Delete GetRandom O(1)]]
+    
+- [[Time Based Key Value Store]]
+    
+- [[All Oone Data Structure]]
+    
+
+### Patterns
+
+- HashMap + DLL
+    
+- HashMap + Heap
+    
+- HashMap + TreeSet
+    
+- Multiple data structures combined
+    
+
+---
+
+# 85 — Advanced Problem-Solving Patterns
+
+## [[87 — Universal DSA Patterns]]
+
+This is the most important pattern-recognition section.
+
+### Pattern 1 — Brute Force → Optimization
+
+[[Brute Force]]
+
+→ [[Observation]]
+
+→ [[Optimization]]
+
+→ [[Optimal Algorithm]]
+
+---
+
+### Pattern 2 — Hashing
+
+[[Frequency Map]]
+
+[[Complement Lookup]]
+
+[[Prefix Sum + HashMap]]
+
+---
+
+### Pattern 3 — Two Pointers
+
+[[Opposite Pointer]]
+
+[[Fast Slow Pointer]]
+
+[[Merge Pointer]]
+
+---
+
+### Pattern 4 — Sliding Window
+
+[[Fixed Window]]
+
+[[Variable Window]]
+
+[[At Most K]]
+
+[[Exactly K]]
+
+---
+
+### Pattern 5 — Binary Search
+
+[[Search Space]]
+
+[[Monotonic Predicate]]
+
+[[Binary Search on Answer]]
+
+---
+
+### Pattern 6 — Prefix/Suffix
+
+[[Prefix Sum]]
+
+[[Prefix XOR]]
+
+[[Prefix Minimum]]
+
+[[Suffix Maximum]]
+
+---
+
+### Pattern 7 — Monotonic Stack
+
+[[Next Greater]]
+
+[[Next Smaller]]
+
+[[Previous Greater]]
+
+[[Previous Smaller]]
+
+---
+
+### Pattern 8 — Heap
+
+[[Top K]]
+
+[[Kth Element]]
+
+[[Two Heaps]]
+
+[[Multiway Merge]]
+
+---
+
+### Pattern 9 — BFS
+
+[[Shortest Path]]
+
+[[Multi-source BFS]]
+
+[[Level Order]]
+
+[[State Space BFS]]
+
+---
+
+### Pattern 10 — DFS
+
+[[Components]]
+
+[[Cycle Detection]]
+
+[[Path Search]]
+
+[[Tree DFS]]
+
+---
+
+### Pattern 11 — Backtracking
+
+[[Choose]]
+
+→ [[Explore]]
+
+→ [[Undo]]
+
+---
+
+### Pattern 12 — Greedy
+
+[[Sort]]
+
+→ [[Choose Best Local Option]]
+
+→ [[Maintain Feasibility]]
+
+---
+
+### Pattern 13 — Dynamic Programming
+
+[[State]]
+
+→ [[Transition]]
+
+→ [[Base Case]]
+
+→ [[Answer]]
+
+---
+
+### Pattern 14 — Divide & Conquer
+
+[[Divide]]
+
+→ [[Solve]]
+
+→ [[Combine]]
+
+---
+
+### Pattern 15 — DSU
+
+[[Find]]
+
+→ [[Union]]
+
+→ [[Compress]]
+
+---
+
+### Pattern 16 — Topological Sort
+
+[[Dependency]]
+
+→ [[Indegree]]
+
+→ [[Process]]
+
+---
+
+### Pattern 17 — Shortest Path
+
+[[BFS]]
+
+→ [[0-1 BFS]]
+
+→ [[Dijkstra]]
+
+→ [[Bellman Ford]]
+
+→ [[Floyd Warshall]]
+
+---
+
+### Pattern 18 — MST
+
+[[Kruskal]]
+
+or
+
+[[Prim]]
+
+---
+
+### Pattern 19 — Range Query
+
+[[Prefix Sum]]
+
+→ [[Fenwick Tree]]
+
+→ [[Segment Tree]]
+
+→ [[Sparse Table]]
+
+---
+
+### Pattern 20 — Tree Query
+
+[[Euler Tour]]
+
+→ [[Binary Lifting]]
+
+→ [[LCA]]
+
+→ [[HLD]]
+
+---
+
+# 86 — Competitive Programming Core
+
+## [[88 — Competitive Programming]]
+
+### Must Know
+
+- [[Fast Input]]
+    
+- [[Fast Output]]
+    
+- [[Java BufferedReader]]
+    
+- [[StringTokenizer]]
+    
+- [[Custom FastScanner]]
+    
+- [[Arrays]]
+    
+- [[Collections]]
+    
+- [[PriorityQueue]]
+    
+- [[Deque]]
+    
+- [[HashMap]]
+    
+- [[HashSet]]
+    
+- [[TreeMap]]
+    
+- [[TreeSet]]
+    
+- [[Comparator]]
+    
+- [[BitSet]]
+    
+- [[Custom Objects]]
+    
+- [[Recursion Stack]]
+    
+- [[Integer Overflow]]
+    
+- [[Long]]
+    
+- [[Modulo Arithmetic]]
+    
+
+---
+
+# 87 — Java DSA Templates
+
+## [[89 — Java Templates]]
+
+Create reusable templates for:
+
+- [[Fast Scanner]]
+    
+- [[Binary Search]]
+    
+- [[Merge Sort]]
+    
+- [[Quick Sort]]
+    
+- [[DFS]]
+    
+- [[BFS]]
+    
+- [[Grid BFS]]
+    
+- [[Grid DFS]]
+    
+- [[Dijkstra]]
+    
+- [[Bellman Ford]]
+    
+- [[Floyd Warshall]]
+    
+- [[DSU]]
+    
+- [[Kruskal]]
+    
+- [[Prim]]
+    
+- [[Topological Sort]]
+    
+- [[Trie]]
+    
+- [[Fenwick Tree]]
+    
+- [[Segment Tree]]
+    
+- [[Lazy Segment Tree]]
+    
+- [[LCA]]
+    
+- [[Binary Lifting]]
+    
+- [[KMP]]
+    
+- [[Z Algorithm]]
+    
+- [[Rolling Hash]]
+    
+- [[Backtracking]]
+    
+- [[1D DP]]
+    
+- [[2D DP]]
+    
+- [[Knapsack]]
+    
+- [[Bitmask DP]]
+    
+
+---
+
+# 88 — Platform-Based Practice
+
+## [[90 — LeetCode Roadmap]]
+
+### Easy Phase
 
 Target:
 
-```text
-50–100 problems
-```
+- 100 Easy
+    
 
----
-
-## Level 1 — Core Patterns
-
-* [[Two Pointers]]
-* [[Sliding Window]]
-* [[Prefix Sum]]
-* [[Binary Search]]
-* [[Stack]]
-* [[Queue]]
+### Medium Phase
 
 Target:
 
-```text
-100–150 problems
-```
+- 200 Medium
+    
 
----
-
-## Level 2 — Core Data Structures
-
-* [[Linked List]]
-* [[Trees]]
-* [[BST]]
-* [[Heap]]
-* [[Trie]]
-* [[Graphs]]
+### Hard Phase
 
 Target:
 
-```text
-150–200 problems
-```
+- 50+ Hard
+    
+
+### Pattern Distribution
+
+- Arrays
+    
+- Strings
+    
+- Hashing
+    
+- Two Pointer
+    
+- Sliding Window
+    
+- Binary Search
+    
+- Linked List
+    
+- Stack
+    
+- Queue
+    
+- Trees
+    
+- BST
+    
+- Heap
+    
+- Trie
+    
+- Graph
+    
+- Greedy
+    
+- Backtracking
+    
+- DP
+    
+- Bit Manipulation
+    
+- Design
+    
 
 ---
 
-## Level 3 — Advanced Patterns
+# 89 — HackerRank Roadmap
 
-* [[Greedy]]
-* [[Backtracking]]
-* [[Dynamic Programming]]
-* [[DSU]]
-* [[Shortest Path]]
-* [[Topological Sort]]
+## [[91 — HackerRank DSA]]
+
+### Sections
+
+- Arrays
+    
+- Strings
+    
+- Sorting
+    
+- Searching
+    
+- Linked Lists
+    
+- Trees
+    
+- Graphs
+    
+- Recursion
+    
+- Dynamic Programming
+    
+- Mathematics
+    
+- Bit Manipulation
+    
+
+### Important Problems
+
+- [[Arrays - DS]]
+    
+- [[2D Array - DS]]
+    
+- [[Left Rotation]]
+    
+- [[Sparse Arrays]]
+    
+- [[Balanced Brackets]]
+    
+- [[Queue using Two Stacks]]
+    
+- [[Tree Height]]
+    
+- [[Tree Level Order Traversal]]
+    
+- [[Lowest Common Ancestor]]
+    
+- [[BFS Shortest Reach]]
+    
+- [[Dijkstra]]
+    
+- [[Floyd Warshall]]
+    
+- [[Candies]]
+    
+- [[Max Array Sum]]
+    
+
+---
+
+# 90 — CSES Roadmap
+
+## [[92 — CSES Problem Set]]
+
+### Introductory
+
+- [[Weird Algorithm]]
+    
+- [[Missing Number]]
+    
+- [[Repetitions]]
+    
+- [[Increasing Array]]
+    
+- [[Permutations]]
+    
+- [[Number Spiral]]
+    
+- [[Two Knights]]
+    
+- [[Two Sets]]
+    
+- [[Bit Strings]]
+    
+- [[Trailing Zeros]]
+    
+- [[Coin Piles]]
+    
+- [[Palindrome Reorder]]
+    
+
+### Sorting & Searching
+
+- [[Distinct Numbers]]
+    
+- [[Apartments]]
+    
+- [[Ferris Wheel]]
+    
+- [[Concert Tickets]]
+    
+- [[Restaurant Customers]]
+    
+- [[Movie Festival]]
+    
+- [[Maximum Subarray Sum]]
+    
+- [[Stick Lengths]]
+    
+- [[Missing Coin Sum]]
+    
+- [[Collecting Numbers]]
+    
+- [[Playlist]]
+    
+- [[Towers]]
+    
+- [[Traffic Lights]]
+    
+
+### Dynamic Programming
+
+- [[Dice Combinations]]
+    
+- [[Minimizing Coins]]
+    
+- [[Coin Combinations I]]
+    
+- [[Coin Combinations II]]
+    
+- [[Removing Digits]]
+    
+- [[Grid Paths]]
+    
+- [[Book Shop]]
+    
+- [[Array Description]]
+    
+- [[Edit Distance]]
+    
+- [[Rectangle Cutting]]
+    
+- [[Money Sums]]
+    
+- [[Removal Game]]
+    
+- [[Projects]]
+    
+- [[Elevator Rides]]
+    
+- [[Counting Tilings]]
+    
+- [[Counting Numbers]]
+    
+
+### Graph Algorithms
+
+- [[Counting Rooms]]
+    
+- [[Labyrinth]]
+    
+- [[Building Roads]]
+    
+- [[Message Route]]
+    
+- [[Building Teams]]
+    
+- [[Round Trip]]
+    
+- [[Monsters]]
+    
+- [[Shortest Routes I]]
+    
+- [[Shortest Routes II]]
+    
+- [[High Score]]
+    
+- [[Flight Discount]]
+    
+- [[Flight Routes]]
+    
+- [[Road Reparation]]
+    
+- [[Road Construction]]
+    
+- [[Course Schedule]]
+    
+- [[Longest Flight Route]]
+    
+- [[Game Routes]]
+    
+- [[School Dance]]
+    
+- [[Police Chase]]
+    
+
+### Tree Algorithms
+
+- [[Subordinates]]
+    
+- [[Tree Matching]]
+    
+- [[Tree Diameter]]
+    
+- [[Tree Distances I]]
+    
+- [[Tree Distances II]]
+    
+- [[Company Queries I]]
+    
+- [[Company Queries II]]
+    
+- [[Path Queries]]
+    
+- [[Path Queries II]]
+    
+
+### Range Queries
+
+- [[Static Range Sum Queries]]
+    
+- [[Static Range Minimum Queries]]
+    
+- [[Dynamic Range Sum Queries]]
+    
+- [[Dynamic Range Minimum Queries]]
+    
+- [[Range Update Queries]]
+    
+- [[Hotel Queries]]
+    
+- [[List Removals]]
+    
+- [[Salary Queries]]
+    
+
+### String Algorithms
+
+- [[String Matching]]
+    
+- [[Finding Borders]]
+    
+- [[Finding Periods]]
+    
+- [[Minimal Rotation]]
+    
+- [[Longest Palindrome]]
+    
+- [[Required Substring]]
+    
+- [[Palindrome Queries]]
+    
+- [[Finding Patterns]]
+    
+- [[Distinct Substrings]]
+    
+
+---
+
+# 91 — Codeforces Roadmap
+
+## [[93 — Codeforces Pattern Practice]]
+
+### Beginner
+
+- Implementation
+    
+- Brute Force
+    
+- Math
+    
+- Sorting
+    
+- Strings
+    
+- Arrays
+    
+- Greedy
+    
+
+### Intermediate
+
+- Binary Search
+    
+- Two Pointers
+    
+- Prefix Sum
+    
+- Difference Array
+    
+- BFS
+    
+- DFS
+    
+- DP
+    
+- Graphs
+    
+- Number Theory
+    
+
+### Advanced
+
+- Segment Tree
+    
+- Fenwick Tree
+    
+- DSU
+    
+- Sparse Table
+    
+- HLD
+    
+- SCC
+    
+- Flow
+    
+- Bitmask DP
+    
+- Digit DP
+    
+- Combinatorics
+    
+
+### Practice Target
+
+- 50 × 800-rated
+    
+- 75 × 900-rated
+    
+- 100 × 1000-rated
+    
+- 100 × 1100-rated
+    
+- 100 × 1200-rated
+    
+- 100 × 1300-rated
+    
+- Continue progressively
+    
+
+---
+
+# 92 — HackerEarth Roadmap
+
+## [[94 — HackerEarth Practice]]
+
+### Topics
+
+- Basic Programming
+    
+- Arrays
+    
+- Strings
+    
+- Searching
+    
+- Sorting
+    
+- Recursion
+    
+- Mathematics
+    
+- Greedy
+    
+- Graphs
+    
+- Trees
+    
+- DP
+    
+- Bit Manipulation
+    
+
+### Advanced
+
+- Segment Tree
+    
+- Fenwick Tree
+    
+- DSU
+    
+- Shortest Path
+    
+- MST
+    
+- Advanced DP
+    
+- Number Theory
+    
+
+---
+
+# 93 — Problem-Solving Framework
+
+## [[95 — How to Approach Any DSA Problem]]
+
+Always follow:
+
+### Step 1 — Understand
+
+- Input
+    
+- Output
+    
+- Constraints
+    
+- Examples
+    
+
+### Step 2 — Brute Force
+
+Ask:
+
+> What is the simplest solution?
+
+### Step 3 — Complexity
+
+Calculate:
+
+- Time
+    
+- Space
+    
+
+### Step 4 — Find the Bottleneck
+
+Ask:
+
+> Which operation is making my solution slow?
+
+### Step 5 — Pattern Recognition
+
+Check:
+
+- Hashing?
+    
+- Two Pointer?
+    
+- Sliding Window?
+    
+- Prefix Sum?
+    
+- Binary Search?
+    
+- Stack?
+    
+- Heap?
+    
+- BFS?
+    
+- DFS?
+    
+- Greedy?
+    
+- DP?
+    
+- DSU?
+    
+- Segment Tree?
+    
+
+### Step 6 — Optimize
+
+Convert:
+
+`O(N²) → O(N log N)`
+
+or
+
+`O(N²) → O(N)`
+
+### Step 7 — Implement
+
+### Step 8 — Edge Cases
+
+Check:
+
+- Empty
+    
+- One element
+    
+- Duplicates
+    
+- Negative values
+    
+- Large values
+    
+- Sorted
+    
+- Reverse sorted
+    
+- Overflow
+    
+- Disconnected graph
+    
+- Cycles
+    
+
+### Step 9 — Test
+
+### Step 10 — Explain
+
+Be able to explain:
+
+1. Intuition
+    
+2. Pattern
+    
+3. Algorithm
+    
+4. Correctness
+    
+5. Complexity
+    
+
+---
+
+# 94 — Pattern Recognition Cheat Sheet
+
+## [[96 — DSA Pattern Recognition]]
+
+|Problem Signal|Pattern|
+|---|---|
+|Sorted array + pair|[[Two Pointer]]|
+|Contiguous subarray|[[Sliding Window]] / [[Prefix Sum]]|
+|Subarray sum|[[Prefix Sum]]|
+|Repeated lookup|[[HashMap]]|
+|Top K|[[Heap]]|
+|Kth element|[[Heap]] / [[QuickSelect]]|
+|Next greater|[[Monotonic Stack]]|
+|Shortest unweighted path|[[BFS]]|
+|Shortest weighted path|[[Dijkstra]]|
+|Negative edges|[[Bellman Ford]]|
+|All-pairs shortest path|[[Floyd Warshall]]|
+|Dependency|[[Topological Sort]]|
+|Components|[[DFS/BFS/DSU]]|
+|Connectivity after unions|[[DSU]]|
+|Sorted search space|[[Binary Search]]|
+|Minimum feasible answer|[[Binary Search on Answer]]|
+|All combinations|[[Backtracking]]|
+|Optimal overlapping subproblems|[[DP]]|
+|Tree ancestor|[[LCA/Binary Lifting]]|
+|Tree path query|[[HLD]]|
+|Range sum|[[Prefix/Fenwick/Segment Tree]]|
+|Range min|[[Sparse Table/Segment Tree]]|
+|String prefix|[[Trie]]|
+|Pattern matching|[[KMP/Z/Rabin Karp]]|
+|XOR maximum|[[XOR Trie]]|
+|Interval overlap|[[Sweep Line/Intervals]]|
+|Large constraints + subsets|[[Bitmask DP/Meet in Middle]]|
+|Every node has one outgoing edge|[[Functional Graph]]|
+
+---
+
+# 95 — Difficulty Progression
+
+## [[97 — DSA Difficulty Ladder]]
+
+### Level 0 — Foundations
+
+- Arrays
+    
+- Strings
+    
+- Complexity
+    
+- Hashing
+    
+- Basic recursion
+    
+
+### Level 1 — Linear Patterns
+
+- Two Pointer
+    
+- Sliding Window
+    
+- Prefix Sum
+    
+- Binary Search
+    
+- Sorting
+    
+- Linked List
+    
+- Stack
+    
+- Queue
+    
+
+### Level 2 — Core Structures
+
+- Trees
+    
+- BST
+    
+- Heap
+    
+- Trie
+    
+- Graph
+    
+- DSU
+    
+
+### Level 3 — Core Algorithms
+
+- BFS
+    
+- DFS
+    
+- Topological Sort
+    
+- Dijkstra
+    
+- MST
+    
+- Greedy
+    
+- Backtracking
+    
+- Basic DP
+    
+
+### Level 4 — Advanced
+
+- Segment Tree
+    
+- Fenwick Tree
+    
+- Sparse Table
+    
+- LCA
+    
+- Binary Lifting
+    
+- SCC
+    
+- Bridges
+    
+- Articulation Points
+    
+- Advanced DP
+    
+- String Algorithms
+    
+
+### Level 5 — Competitive Programming
+
+- HLD
+    
+- Mo's Algorithm
+    
+- Flow
+    
+- Digit DP
+    
+- Bitmask DP
+    
+- Convex Hull Trick
+    
+- Divide & Conquer DP
+    
+- Number Theory
+    
+- Computational Geometry
+    
+- Advanced Strings
+    
+
+---
+
+# 96 — Placement Minimum Core
+
+## [[98 — Placement DSA Core]]
+
+If preparing for companies such as service-based and product-based companies, the **non-negotiable core** is:
+
+### Must Master
+
+- [[Arrays]]
+    
+- [[Strings]]
+    
+- [[Hashing]]
+    
+- [[Two Pointer]]
+    
+- [[Sliding Window]]
+    
+- [[Prefix Sum]]
+    
+- [[Binary Search]]
+    
+- [[Sorting]]
+    
+- [[Linked List]]
+    
+- [[Stack]]
+    
+- [[Queue]]
+    
+- [[ Recursion]]
+    
+- [[Backtracking]]
+    
+- [[Binary Tree]]
+    
+- [[BST]]
+    
+- [[Heap]]
+    
+- [[Graph]]
+    
+- [[BFS]]
+    
+- [[DFS]]
+    
+- [[Topological Sort]]
+    
+- [[DSU]]
+    
+- [[Greedy]]
+    
+- [[Dynamic Programming]]
+    
+- [[Bit Manipulation]]
+    
+
+### Interview Level
 
 Target:
 
-```text
-150–200 problems
-```
+- 150–250 LeetCode problems
+    
+- Mostly Easy + Medium
+    
+- 20–30 Hard
+    
+- 30+ timed contests/problems
+    
 
 ---
 
-## Level 4 — Advanced Competitive Programming
+# 97 — Product Company Core
 
-* [[Segment Tree]]
-* [[Fenwick Tree]]
-* [[SCC]]
-* [[Bridges]]
-* [[Articulation Points]]
-* [[Network Flow]]
-* [[String Algorithms]]
-* [[Bitmask DP]]
-* [[Digit DP]]
-* [[Game Theory]]
-* [[Computational Geometry]]
+## [[99 — Product Company DSA Core]]
 
-Target:
+Master:
 
-```text
-100+ problems
-```
-
----
-
-# 60. 🔥 Problem-Solving Training Method
-
-Do NOT solve problems randomly.
-
-For every pattern:
-
-```text
-1. Learn concept
-2. Learn recognition clues
-3. Learn template
-4. Solve easy problem
-5. Solve medium problem
-6. Solve variation
-7. Solve without template
-8. Solve timed
-9. Solve unseen problem
-10. Explain solution
-```
-
----
-
-# 61. 🧠 The 5-Stage Mastery System
-
-## Stage 1 — Understand
-
-You can explain the algorithm.
-
-## Stage 2 — Implement
-
-You can code it without looking.
-
-## Stage 3 — Recognize
-
-You can identify the pattern from a new problem.
-
-## Stage 4 — Adapt
-
-You can modify the template for a variation.
-
-## Stage 5 — Invent
-
-You can combine multiple patterns.
-
-Example:
-
-```text
-Sliding Window
-+
-HashMap
-+
-Prefix Sum
-```
-
-or:
-
-```text
-Binary Search
-+
-Greedy
-```
-
-or:
-
-```text
-DFS
-+
-Memoization
-=
-Tree/Graph DP
-```
-
----
-
-# 62. ⏱️ Timed Problem Training
-
-Your ultimate goal should not literally be "solve every problem in a fraction of a second."
-
-Instead train your **pattern recognition speed**.
+- All Placement Core
+    
+- Advanced Trees
+    
+- Advanced Graphs
+    
+- Advanced DP
+    
+- Trie
+    
+- Segment Tree
+    
+- Fenwick Tree
+    
+- Binary Lifting
+    
+- LCA
+    
+- String Algorithms
+    
+- Bitmask DP
+    
+- Number Theory
+    
+- Graph DP
+    
+- Range Queries
+    
+- Design Data Structures
+    
 
 ### Target
 
+- 300+ quality problems
+    
+- 200+ Medium
+    
+- 50+ Hard
+    
+- Regular contests
+    
+- Timed problem solving
+    
+
+---
+
+# 98 — Final Master Checklist
+
+## [[100 — DSA A to Z Checklist]]
+
+### Foundations
+
+-  [[Complexity Analysis]]
+    
+-  [[Arrays]]
+    
+-  [[Strings]]
+    
+-  [[Hashing]]
+    
+
+### Linear Data Structures
+
+-  [[Linked List]]
+    
+-  [[Stack]]
+    
+-  [[Queue]]
+    
+-  [[Deque]]
+    
+
+### Core Patterns
+
+-  [[Two Pointer]]
+    
+-  [[Sliding Window]]
+    
+-  [[Prefix Sum]]
+    
+-  [[Difference Array]]
+    
+-  [[Binary Search]]
+    
+-  [[Sorting]]
+    
+-  [[Monotonic Stack]]
+    
+-  [[Monotonic Queue]]
+    
+
+### Recursion
+
+-  [[Recursion]]
+    
+-  [[Backtracking]]
+    
+-  [[Divide and Conquer]]
+    
+
+### Trees
+
+-  [[Binary Tree]]
+    
+-  [[BST]]
+    
+-  [[Heap]]
+    
+-  [[Trie]]
+    
+-  [[Tree DP]]
+    
+-  [[LCA]]
+    
+-  [[Binary Lifting]]
+    
+-  [[Euler Tour]]
+    
+-  [[HLD]]
+    
+
+### Graphs
+
+-  [[Graph Representation]]
+    
+-  [[DFS]]
+    
+-  [[BFS]]
+    
+-  [[Multi-source BFS]]
+    
+-  [[Cycle Detection]]
+    
+-  [[Topological Sort]]
+    
+-  [[Bipartite Graph]]
+    
+-  [[DSU]]
+    
+-  [[Dijkstra]]
+    
+-  [[Bellman Ford]]
+    
+-  [[Floyd Warshall]]
+    
+-  [[MST]]
+    
+-  [[SCC]]
+    
+-  [[Bridges]]
+    
+-  [[Articulation Points]]
+    
+-  [[Euler Path]]
+    
+-  [[Maximum Flow]]
+    
+
+### Greedy
+
+-  [[Activity Selection]]
+    
+-  [[Interval Scheduling]]
+    
+-  [[Greedy + Heap]]
+    
+-  [[Greedy + Sorting]]
+    
+-  [[Exchange Argument]]
+    
+
+### Dynamic Programming
+
+-  [[1D DP]]
+    
+-  [[Grid DP]]
+    
+-  [[Knapsack DP]]
+    
+-  [[LIS]]
+    
+-  [[LCS]]
+    
+-  [[String DP]]
+    
+-  [[Interval DP]]
+    
+-  [[Tree DP]]
+    
+-  [[Bitmask DP]]
+    
+-  [[Digit DP]]
+    
+-  [[Graph DP]]
+    
+-  [[DP Optimization]]
+    
+
+### Bit Manipulation
+
+-  [[Bit Basics]]
+    
+-  [[XOR]]
+    
+-  [[Bitmask]]
+    
+-  [[XOR Trie]]
+    
+-  [[Bitmask DP]]
+    
+
+### Mathematics
+
+-  [[GCD]]
+    
+-  [[LCM]]
+    
+-  [[Prime]]
+    
+-  [[Sieve]]
+    
+-  [[Modular Arithmetic]]
+    
+-  [[Fast Power]]
+    
+-  [[Combinatorics]]
+    
+-  [[Number Theory]]
+    
+
+### Range Queries
+
+-  [[Prefix Sum]]
+    
+-  [[Fenwick Tree]]
+    
+-  [[Segment Tree]]
+    
+-  [[Lazy Propagation]]
+    
+-  [[Sparse Table]]
+    
+-  [[Mo's Algorithm]]
+    
+
+### Strings
+
+-  [[KMP]]
+    
+-  [[Z Algorithm]]
+    
+-  [[Rabin Karp]]
+    
+-  [[Rolling Hash]]
+    
+-  [[Manacher]]
+    
+-  [[Suffix Array]]
+    
+-  [[Aho Corasick]]
+    
+-  [[Suffix Automaton]]
+    
+
+### Competitive Programming
+
+-  [[Fast Input]]
+    
+-  [[Fast Output]]
+    
+-  [[Coordinate Compression]]
+    
+-  [[Meet in the Middle]]
+    
+-  [[Sweep Line]]
+    
+-  [[Randomized Algorithms]]
+    
+-  [[Game Theory]]
+    
+-  [[Computational Geometry]]
+    
+
+---
+
+# 99 — Recommended Problem Count
+
+## [[101 — Problem Target]]
+
+|Area|Target|
+|---|--:|
+|Arrays|30|
+|Strings|25|
+|Hashing|20|
+|Two Pointer|20|
+|Sliding Window|20|
+|Prefix Sum|15|
+|Binary Search|25|
+|Sorting|15|
+|Linked List|20|
+|Stack|20|
+|Queue/Deque|10|
+|Recursion|15|
+|Backtracking|25|
+|Bit Manipulation|20|
+|Trees|40|
+|BST|20|
+|Heap|20|
+|Trie|15|
+|Graph BFS/DFS|40|
+|Shortest Path|20|
+|MST/DSU|20|
+|Topological Sort|15|
+|Greedy|30|
+|Basic DP|40|
+|Advanced DP|50|
+|Advanced Graph|30|
+|Segment/Fenwick|30|
+|String Algorithms|25|
+|Number Theory|30|
+|Competitive Programming|100+|
+
+### Total Target
+
+> **700+ quality problems**
+
+Do not solve 700 random problems.
+
+Solve them **pattern-wise**.
+
+---
+
+# 100 — Final Learning Order
+
+## [[102 — DSA Master Sequence]]
+
+Follow this exact order:
+
 ```text
-10 seconds
-→ identify problem family
-
-30 seconds
-→ identify candidate pattern
-
-1–2 minutes
-→ derive approach
-
-5–10 minutes
-→ implement
-
-5 minutes
-→ test edge cases
+1. Complexity
+        ↓
+2. Arrays
+        ↓
+3. Strings
+        ↓
+4. Hashing
+        ↓
+5. Sorting
+        ↓
+6. Two Pointers
+        ↓
+7. Sliding Window
+        ↓
+8. Prefix Sum
+        ↓
+9. Binary Search
+        ↓
+10. Linked List
+        ↓
+11. Stack
+        ↓
+12. Queue / Deque
+        ↓
+13. Recursion
+        ↓
+14. Backtracking
+        ↓
+15. Bit Manipulation
+        ↓
+16. Trees
+        ↓
+17. BST
+        ↓
+18. Heap
+        ↓
+19. Trie
+        ↓
+20. Graph
+        ↓
+21. BFS / DFS
+        ↓
+22. Topological Sort
+        ↓
+23. DSU
+        ↓
+24. Shortest Path
+        ↓
+25. MST
+        ↓
+26. Greedy
+        ↓
+27. Basic DP
+        ↓
+28. Knapsack
+        ↓
+29. String DP
+        ↓
+30. Grid DP
+        ↓
+31. Tree DP
+        ↓
+32. Bitmask DP
+        ↓
+33. Digit DP
+        ↓
+34. Fenwick Tree
+        ↓
+35. Segment Tree
+        ↓
+36. Sparse Table
+        ↓
+37. LCA / Binary Lifting
+        ↓
+38. Advanced Graph
+        ↓
+39. Advanced Strings
+        ↓
+40. Number Theory
+        ↓
+41. Computational Geometry
+        ↓
+42. HLD
+        ↓
+43. Mo's Algorithm
+        ↓
+44. Network Flow
+        ↓
+45. Advanced CP
 ```
 
-Eventually:
+---
+
+# 101 — The Ultimate Pattern Map
 
 ```text
-Question
-↓
-Pattern instantly recognized
-↓
-Known template
-↓
-Adapt
-↓
-Code
+ARRAY
+├── Traversal
+├── Frequency
+├── Two Pointer
+├── Sliding Window
+├── Prefix Sum
+├── Difference Array
+├── Binary Search
+├── Sorting
+├── Kadane
+├── Hashing
+├── Monotonic Stack
+├── Heap
+└── Range Query
+
+STRING
+├── Frequency
+├── Two Pointer
+├── Sliding Window
+├── Hashing
+├── Trie
+├── KMP
+├── Z Algorithm
+├── Rabin Karp
+├── Rolling Hash
+├── Manacher
+├── Suffix Array
+└── Aho Corasick
+
+LINKED LIST
+├── Fast/Slow
+├── Reversal
+├── Merge
+├── Cycle
+├── Intersection
+└── Dummy Node
+
+TREE
+├── DFS
+├── BFS
+├── Height
+├── Diameter
+├── Path
+├── LCA
+├── Binary Lifting
+├── Euler Tour
+├── Tree DP
+└── HLD
+
+GRAPH
+├── DFS
+├── BFS
+├── Components
+├── Cycle Detection
+├── Bipartite
+├── Topological Sort
+├── DSU
+├── Dijkstra
+├── Bellman Ford
+├── Floyd Warshall
+├── MST
+├── SCC
+├── Bridges
+├── Articulation
+├── Euler
+├── Flow
+└── Matching
+
+DP
+├── 1D
+├── 2D
+├── Grid
+├── Knapsack
+├── LIS
+├── LCS
+├── String
+├── Interval
+├── Tree
+├── Graph
+├── Bitmask
+├── Digit
+└── Optimization
+
+ADVANCED
+├── Fenwick
+├── Segment Tree
+├── Lazy Propagation
+├── Sparse Table
+├── Mo's Algorithm
+├── HLD
+├── Persistent DS
+├── Number Theory
+├── Geometry
+├── Game Theory
+├── Randomized Algorithms
+└── Network Flow
 ```
 
 ---
 
-# 63. 🧠 Daily Pattern Training
+# 102 — Definition of "DSA Complete"
 
-For every study session:
+## [[103 — DSA Completion Criteria]]
 
-### Round 1 — Recognition
+You can consider a topic **completed** only when you can:
 
-Take 10 problems.
+-  Explain the concept without notes
+    
+-  Identify the pattern from a new problem
+    
+-  Write the template from memory
+    
+-  Solve Easy without help
+    
+-  Solve Medium with limited hints
+    
+-  Attempt Hard independently
+    
+-  Explain time complexity
+    
+-  Explain space complexity
+    
+-  Handle edge cases
+    
+-  Implement in Java
+    
+-  Solve under time pressure
+    
+-  Recognize when NOT to use the pattern
+    
 
-Do NOT solve them.
+> [!tip] Most important skill  
+> The goal is not:
+> 
+> **"I solved this LeetCode problem."**
+> 
+> The goal is:
+> 
+> **"I saw this new problem and immediately recognized that it is a Sliding Window + HashMap problem."**
 
-For each write only:
+---
+
+# 103 — Personal DSA Progress
+
+## [[104 — DSA Progress Tracker]]
+
+### Current Status
+
+-  Foundation
+    
+-  Arrays
+    
+-  Strings
+    
+-  Hashing
+    
+-  Two Pointer
+    
+-  Sliding Window
+    
+-  Prefix Sum
+    
+-  Binary Search
+    
+-  Sorting
+    
+-  Linked List
+    
+-  Stack
+    
+-  Queue
+    
+-  Recursion
+    
+-  Backtracking
+    
+-  Bit Manipulation
+    
+-  Trees
+    
+-  BST
+    
+-  Heap
+    
+-  Trie
+    
+-  Graph
+    
+-  BFS
+    
+-  DFS
+    
+-  Topological Sort
+    
+-  DSU
+    
+-  Shortest Path
+    
+-  MST
+    
+-  Greedy
+    
+-  Dynamic Programming
+    
+-  Advanced DP
+    
+-  Fenwick Tree
+    
+-  Segment Tree
+    
+-  Sparse Table
+    
+-  Advanced Graph
+    
+-  Advanced Strings
+    
+-  Number Theory
+    
+-  HLD
+    
+-  Mo's Algorithm
+    
+-  Network Flow
+    
+-  Competitive Programming
+    
+
+---
+
+# 104 — Golden Rule
+
+> [!success] DSA Mastery Formula
 
 ```text
-Pattern:
-Data Structure:
-Expected Complexity:
+CONCEPT
+   ↓
+PATTERN
+   ↓
+TEMPLATE
+   ↓
+EASY
+   ↓
+MEDIUM
+   ↓
+HARD
+   ↓
+MIXED PROBLEMS
+   ↓
+TIMED PRACTICE
+   ↓
+CONTEST
+   ↓
+REVISION
 ```
 
-Target:
-
-```text
-< 30 seconds/problem
-```
-
----
-
-### Round 2 — Implementation
-
-Take 3 problems.
-
-Solve from scratch.
-
----
-
-### Round 3 — Variation
-
-Take one known pattern and solve a different variation.
-
----
-
-### Round 4 — Recall
-
-Close all notes.
-
-Write the template from memory.
-
----
-
-### Round 5 — Explanation
-
-Explain:
-
-```text
-Why this pattern?
-Why not brute force?
-Complexity?
-Edge cases?
-```
-
----
-
-# 64. 🏆 Problem Count Target
-
-A strong preparation should focus on **patterns rather than raw problem count**.
-
-Suggested target:
-
-```text
-Easy:
-150+
-
-Medium:
-300+
-
-Hard:
-100+
-
-Total:
-550+
-```
-
-But more important:
-
-```text
-100 patterns/variations mastered
->
-1000 memorized solutions
-```
-
----
-
-# 65. 🎯 Placement Priority
-
-If your immediate objective is placements, prioritize:
-
-## Tier 1 — MUST MASTER
-
-* [[Arrays]]
-* [[Strings]]
-* [[Hashing]]
-* [[Two Pointers]]
-* [[Sliding Window]]
-* [[Prefix Sum]]
-* [[Binary Search]]
-* [[Stack]]
-* [[Queue]]
-* [[Linked List]]
-* [[Trees]]
-* [[BST]]
-* [[Heap]]
-* [[Graphs]]
-* [[BFS]]
-* [[DFS]]
-* [[Topological Sort]]
-* [[Greedy]]
-* [[Backtracking]]
-* [[Dynamic Programming]]
-
----
-
-## Tier 2 — VERY IMPORTANT
-
-* [[Trie]]
-* [[DSU]]
-* [[Dijkstra]]
-* [[MST]]
-* [[Monotonic Stack]]
-* [[Fenwick Tree]]
-* [[Segment Tree]]
-* [[Bit Manipulation]]
-* [[Intervals]]
-* [[Matrix Problems]]
-
----
-
-## Tier 3 — ADVANCED
-
-* [[SCC]]
-* [[Bridges]]
-* [[Articulation Points]]
-* [[Network Flow]]
-* [[String Algorithms]]
-* [[Digit DP]]
-* [[Bitmask DP]]
-* [[Game Theory]]
-* [[Computational Geometry]]
-
----
-
-# 66. 🧠 The Ultimate DSA Mental Model
-
-When a problem arrives, don't immediately code.
-
-Think:
-
-```text
-                    PROBLEM
-                       │
-                       ▼
-                 CONSTRAINTS
-                       │
-                       ▼
-                DATA STRUCTURE
-                       │
-                       ▼
-                    PATTERN
-                       │
-          ┌────────────┼────────────┐
-          ▼            ▼            ▼
-       SEARCH        OPTIMIZE      COUNT
-          │            │            │
-          ▼            ▼            ▼
-     Binary Search     DP         Hashing
-     BFS/DFS            Greedy     Prefix
-                       │
-                       ▼
-                    TEMPLATE
-                       │
-                       ▼
-                   OPTIMIZE
-                       │
-                       ▼
-                  EDGE CASES
-                       │
-                       ▼
-                    SOLUTION
-```
-
----
-
-# 67. 🔥 The 20 Patterns You Must Know Cold
-
-If you want product-company-level problem solving, these should become automatic:
-
-1. [[Hashing]]
-2. [[Two Pointers]]
-3. [[Sliding Window]]
-4. [[Prefix Sum]]
-5. [[Binary Search]]
-6. [[Sorting + Greedy]]
-7. [[Intervals]]
-8. [[Monotonic Stack]]
-9. [[Heap / Top K]]
-10. [[Linked List Fast Slow]]
-11. [[Tree DFS]]
-12. [[Tree BFS]]
-13. [[Graph DFS/BFS]]
-14. [[Topological Sort]]
-15. [[Union Find]]
-16. [[Backtracking]]
-17. [[Dynamic Programming]]
-18. [[Shortest Path]]
-19. [[Bit Manipulation]]
-20. [[Range Query Data Structures]]
-
----
-
-# 68. 📝 Obsidian Problem Note Template
-
-For every problem create:
-
-````markdown
----
-title:
-platform:
-difficulty:
-pattern:
-data_structure:
-time_complexity:
-space_complexity:
-status:
----
-
-# Problem
-
-## Pattern
-
-[[Pattern Name]]
-
-## Why This Pattern?
-
--
-
-## Brute Force
-
--
-
-## Optimal Approach
-
--
-
-## Key Observation
-
--
-
-## Algorithm
-
-1.
-2.
-3.
-4.
-
-## Template
-
-```java
-
-````
-
-## Complexity
-
-Time:
-Space:
-
-## Edge Cases
-
-*
-
-## Mistake I Made
-
-*
-
-## New Learning
-
-*
-
-## Similar Problems
-
-* [[]]
-* [[]]
-* [[]]
-
-## Pattern Variations
-
-* [[]]
-* [[]]
-
-````
-
----
-
-# 69. 🔁 Revision System
-
-Use three revision categories.
-
-## R1 — Forgot
-
-You cannot solve without seeing the solution.
-
-## R2 — Recognized but Slow
-
-You know the pattern but implementation is slow.
-
-## R3 — Mastered
-
-You recognize and implement quickly.
-
-Every problem should eventually move:
-
-```text
-R1 → R2 → R3
-````
-
----
-
-# 70. 🏁 Final Mastery Checklist
-
-## Foundations
-
-* [ ] [[Big O]]
-* [ ] [[Arrays]]
-* [ ] [[Strings]]
-* [ ] [[Hashing]]
-* [ ] [[Recursion]]
-
-## Linear Structures
-
-* [ ] [[Linked List]]
-* [ ] [[Stack]]
-* [ ] [[Queue]]
-* [ ] [[Deque]]
-
-## Searching / Sorting
-
-* [ ] [[Binary Search]]
-* [ ] [[Merge Sort]]
-* [ ] [[Quick Sort]]
-* [ ] [[Counting Sort]]
-
-## Core Patterns
-
-* [ ] [[Two Pointers]]
-* [ ] [[Sliding Window]]
-* [ ] [[Prefix Sum]]
-* [ ] [[Difference Array]]
-* [ ] [[Monotonic Stack]]
-* [ ] [[Heap]]
-* [ ] [[Intervals]]
-
-## Trees
-
-* [ ] [[Binary Tree]]
-* [ ] [[Tree Traversal]]
-* [ ] [[BST]]
-* [ ] [[LCA]]
-* [ ] [[Tree DP]]
-
-## Graphs
-
-* [ ] [[DFS]]
-* [ ] [[BFS]]
-* [ ] [[Connected Components]]
-* [ ] [[Cycle Detection]]
-* [ ] [[Topological Sort]]
-* [ ] [[Shortest Path]]
-* [ ] [[Dijkstra]]
-* [ ] [[DSU]]
-* [ ] [[MST]]
-* [ ] [[SCC]]
-
-## Advanced
-
-* [ ] [[Trie]]
-* [ ] [[Fenwick Tree]]
-* [ ] [[Segment Tree]]
-* [ ] [[Sparse Table]]
-* [ ] [[Bitmask]]
-* [ ] [[Bitmask DP]]
-* [ ] [[Digit DP]]
-* [ ] [[String Algorithms]]
-* [ ] [[Network Flow]]
-
-## DP
-
-* [ ] [[1D DP]]
-* [ ] [[Grid DP]]
-* [ ] [[Knapsack DP]]
-* [ ] [[Subsequence DP]]
-* [ ] [[Interval DP]]
-* [ ] [[Tree DP]]
-* [ ] [[Bitmask DP]]
-
----
-
-# 71. 🥇 Final Objective
-
-The objective is NOT:
-
-```text
-"I solved 500 LeetCode problems."
-```
-
-The objective is:
-
-```text
-I see a new problem.
-
-↓ 5–10 seconds
-
-I identify the problem family.
-
-↓ 20–30 seconds
-
-I identify the pattern.
-
-↓ 30–60 seconds
-
-I derive the state/transition or algorithm.
-
-↓ 1–2 minutes
-
-I choose the correct template.
-
-↓ 
-
-I implement.
-
-↓ 
-
-I test edge cases.
-
-↓ 
-
-I optimize.
-```
-
-The final skill is:
-
-> **Pattern Recognition + Algorithmic Thinking + Template Recall + Adaptation**
-
-That is what turns DSA preparation into actual problem-solving ability.
+**Master patterns, not individual problems.**
